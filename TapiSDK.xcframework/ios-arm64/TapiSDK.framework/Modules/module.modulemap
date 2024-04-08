@@ -1,0 +1,11 @@
+framework module TapiSDK {
+  umbrella header "TapiSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module TapiSDK.Swift {
+  header "TapiSDK-Swift.h"
+  requires objc
+}
