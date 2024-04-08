@@ -1,0 +1,475 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TapiSDK
+import AnyCodable
+import Foundation
+import ObjectiveC
+import Swift
+@_exported import TapiSDK
+import UIKit
+import VGSCollectSDK
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct ActionsResponse : Swift.Codable {
+  public let status: TapiSDK.ActionStatus
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum ActionStatus : Swift.String, Swift.Codable {
+  case success
+  case failure
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CancelCheckoutResponse : Swift.Codable {
+  public let status: TapiSDK.CancelCheckoutStatus
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum CancelCheckoutStatus : Swift.String, Swift.Codable {
+  case transactionCanceled
+  case unableToCancel
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CardInformation : Swift.Codable {
+  public let accountUID: Swift.String?
+  public let impression: TapiSDK.CardImpression
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CardImpression : Swift.Codable {
+  public let type: Swift.String
+  public let payload: TapiSDK.CardPayload
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CardPayload : Swift.Codable {
+  public let card: TapiSDK.CardDetails
+  public let zip: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CardDetails : Swift.Codable {
+  public let uid: Swift.String
+  public let last4: Swift.String
+  public let expirationDate: Swift.String
+  public let cvc: Swift.String
+  public let createdAt: Swift.String
+  public let brand: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CheckoutChangePaymentResponse : Swift.Codable {
+  public let status: TapiSDK.CheckoutChangePaymentStatus
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum CheckoutChangePaymentStatus : Swift.String, Swift.Codable {
+  case switchedToCash
+  case unableToSwitch
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct CheckoutResponse : Swift.Codable {
+  public let amount: Swift.Int?
+  public let checkoutReference: Swift.String?
+  public let currency: Swift.String?
+  public let cardUID: Swift.String?
+  public let last4: Swift.String?
+  public let refundableAmount: Swift.Int?
+  public let status: TapiSDK.TransactionStatus
+  public let tip: Swift.Int?
+  public let cardType: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum TransactionStatus : Swift.String, Swift.Codable {
+  case pending
+  case successful
+  case canceledByPOS
+  case canceledByCustomer
+  case declinedError
+  case declinedErrorDIPMsg
+  case declinedErrorSwipeMsg
+  case paymentGeneralError
+  case paymentGeneralDIPMsg
+  case paymentGeneralSwipeMsg
+  case dipReadError
+  case dipReadErrorMsg
+  case swipeReadError
+  case swipeReadErrorMsg
+  case nfcReadError
+  case nfcDeclineErrorMsg
+  case nfcGeneralErrorMsg
+  case screenTips
+  case screenApproval
+  case screenRewardNotification
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum CheckoutStatus : Swift.Codable {
+  case started
+  case screenTips
+  case screenApproval
+  case screenRewardNotification
+  case success(TapiSDK.CheckoutResponse)
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct Customer : Swift.Codable {
+  public let discounts: [TapiSDK.Discount]?
+  public let email: Swift.String?
+  public let name: Swift.String?
+  public let phone: Swift.String?
+  public let pictureUrl: Swift.String?
+  public let points: Swift.UInt?
+  public let totalPoints: Swift.UInt?
+  public let uid: Swift.String?
+  public let visitCount: Swift.UInt?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CustomerDevice : Swift.Codable {
+  public let deviceState: TapiSDK.DeviceState?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CustomerResponse : Swift.Codable {
+  public let customer: TapiSDK.Customer?
+  public let device: TapiSDK.CustomerDevice?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum DeviceState : Swift.String, Swift.Codable {
+  case idle
+  case checkingIn
+  case selectingDiscount
+  case awaitingPayment
+  case awaitingCheckout
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct Discount : Swift.Codable, Swift.Identifiable, Swift.Hashable {
+  public let name: Swift.String?
+  public let pointCost: Swift.Int?
+  public let selected: Swift.Bool
+  public let type: Swift.String?
+  public let uid: Swift.String
+  public let partnerMetadata: [Swift.String : AnyCodable]?
+  public var id: Swift.String {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: TapiSDK.Discount, b: TapiSDK.Discount) -> Swift.Bool
+  public typealias ID = Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct InProgressOrder : Swift.Encodable {
+  public let total: Swift.Int
+  public let tax: Swift.Int
+  public let subtotal: Swift.Int
+  public let posOrderID: Swift.String
+  public let currency: Swift.String
+  public let tip: Swift.Int
+  public let createdTime: Swift.Int
+  public let employee: TapiSDK.InProgressEmployee
+  public let customer: TapiSDK.InProgressCustomer?
+  public let items: [TapiSDK.InProgressItem]
+  public let discounts: [TapiSDK.InProgressDiscount]
+  public init(total: Swift.Int, tax: Swift.Int, subtotal: Swift.Int, posOrderID: Swift.String, currency: Swift.String, tip: Swift.Int, createdTime: Swift.Int, employee: TapiSDK.InProgressEmployee, customer: TapiSDK.InProgressCustomer? = nil, items: [TapiSDK.InProgressItem], discounts: [TapiSDK.InProgressDiscount])
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct InProgressEmployee : Swift.Encodable {
+  public let id: Swift.String
+  public init(id: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct InProgressCustomer : Swift.Encodable {
+  public let uid: Swift.String
+  public init(uid: Swift.String)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct InProgressItem : Swift.Encodable {
+  public let classUID: Swift.String?
+  public let instanceUIDs: [Swift.String]
+  public let description: Swift.String
+  public let quantity: Swift.Int
+  public let preTaxUnitPrice: Swift.Int
+  public let preTaxTotalPrice: Swift.Int
+  public let postTaxTotalPrice: Swift.Int
+  public let postTaxUnitPrice: Swift.Int
+  public let perUnitTax: Swift.Int
+  public let totalTax: Swift.Int
+  public let taxRate: Swift.Int
+  public let showPreTax: Swift.Bool
+  public let position: Swift.Int
+  public let discounts: [TapiSDK.InProgressDiscount]
+  public let modifiers: [TapiSDK.InProgressModifier]
+  public init(classUID: Swift.String? = nil, instanceUIDs: [Swift.String], description: Swift.String, quantity: Swift.Int, preTaxUnitPrice: Swift.Int, preTaxTotalPrice: Swift.Int, postTaxTotalPrice: Swift.Int, postTaxUnitPrice: Swift.Int, perUnitTax: Swift.Int, totalTax: Swift.Int, taxRate: Swift.Int, showPreTax: Swift.Bool, position: Swift.Int, discounts: [TapiSDK.InProgressDiscount], modifiers: [TapiSDK.InProgressModifier])
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct InProgressDiscount : Swift.Encodable {
+  public let classUID: Swift.String?
+  public let description: Swift.String
+  public let instanceUID: Swift.String
+  public let postTaxAmount: Swift.Int
+  public let preTaxAmount: Swift.Int
+  public let showPreTax: Swift.Bool
+  public init(description: Swift.String, instanceUID: Swift.String, postTaxAmount: Swift.Int, preTaxAmount: Swift.Int, showPreTax: Swift.Bool, classUID: Swift.String? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct InProgressModifier : Swift.Encodable {
+  public let id: Swift.String
+  public let position: Swift.Int
+  public let description: Swift.String
+  public let amount: Swift.Int
+  public let modifiers: [TapiSDK.InProgressModifier]
+  public init(id: Swift.String, position: Swift.Int, description: Swift.String, amount: Swift.Int, modifiers: [TapiSDK.InProgressModifier])
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct Order : Swift.Codable {
+  public let currency: Swift.String
+  public let subtotal: Swift.Int
+  public let tax: Swift.Int
+  public let products: [TapiSDK.Product]
+  public let posOrderID: Swift.String
+  public init(currency: Swift.String, subtotal: Swift.Int, tax: Swift.Int, products: [TapiSDK.Product])
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum PaymentChangeType : Swift.String, Swift.Codable {
+  case cash
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct PingResponse : Swift.Codable {
+  public let connected: Swift.Bool
+  public let ipAddress: Swift.String?
+  public let version: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct Product : Swift.Codable {
+  public let name: Swift.String
+  public let price: Swift.Int
+  public let priceWithVat: Swift.Int
+  public let quantity: Swift.Int
+  public let receiptNestLevel: Swift.Int
+  public let singleVatAmount: Swift.Int
+  public let totalPrice: Swift.Int
+  public let totalWithVat: Swift.Int
+  public let vatRate: Swift.Int
+  public let vatAmount: Swift.Int
+  public init(name: Swift.String, price: Swift.Int, priceWithVat: Swift.Int, quantity: Swift.Int, receiptNestLevel: Swift.Int, singleVatAmount: Swift.Int, totalPrice: Swift.Int, totalWithVat: Swift.Int, vatRate: Swift.Int, vatAmount: Swift.Int)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct RefundResponse : Swift.Codable {
+  public let status: TapiSDK.RefundStatus
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum RefundStatus : Swift.String, Swift.Codable {
+  case success
+  case failure
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct StartCheckoutResponse : Swift.Codable {
+  public let status: TapiSDK.StartCheckoutRequestStatus
+  public let posCheckoutID: Swift.String
+  public let posCheckoutIdInProgress: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum StartCheckoutRequestStatus : Swift.String, Swift.Codable {
+  case transactionStarted
+  case priorTransactionAlreadyInProgress
+  case duplicatePosCheckoutID
+  case transactionPreconditionsNotMet
+  case customerOrDiscountMismatch
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum TapiAction : Swift.CustomStringConvertible {
+  case toggleScreensaver(state: Swift.Bool)
+  case paySkipUserAction
+  case inProgressOrderDisplay(order: TapiSDK.InProgressOrder?)
+  public var description: Swift.String {
+    get
+  }
+}
+public struct TapiConfiguration {
+  public var environment: TapiSDK.TapiEnvironment {
+    get
+  }
+  public var softwareID: Swift.String {
+    get
+  }
+  public var apiKey: Swift.String {
+    get
+  }
+  public var apiSecret: Swift.String {
+    get
+  }
+  public var terminalID: Swift.String {
+    get
+  }
+  public var posID: Swift.String {
+    get
+  }
+  public var skipOptions: Swift.Set<TapiSDK.TapiSkipOption> {
+    get
+  }
+  public init()
+  public init(environment: TapiSDK.TapiEnvironment, softwareID: Swift.String, apiKey: Swift.String, apiSecret: Swift.String, terminalID: Swift.String, posID: Swift.String, skipOptions: Swift.Set<TapiSDK.TapiSkipOption> = [])
+  public mutating func addSkipOption(_ option: TapiSDK.TapiSkipOption)
+  public mutating func removeSkipOption(_ option: TapiSDK.TapiSkipOption)
+}
+public enum TapiEnvironment {
+  case staging
+  case production
+  public static func == (a: TapiSDK.TapiEnvironment, b: TapiSDK.TapiEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum TapiEvent : Swift.CustomStringConvertible {
+  case ping(_: TapiSDK.PingResponse)
+  case action(_: TapiSDK.ActionsResponse)
+  case cancel(_: TapiSDK.CancelCheckoutResponse)
+  case refund(_: TapiSDK.RefundResponse)
+  case customer(_: TapiSDK.CustomerResponse)
+  case checkout(_: TapiSDK.StartCheckoutResponse)
+  case checkoutStatus(_: TapiSDK.CheckoutStatus)
+  case changePaymentStatus(_: TapiSDK.CheckoutChangePaymentResponse)
+  case cardTokenizedData(_: TapiSDK.CardInformation)
+  case error(_: TapiSDK.TapiEvent.TapiError)
+  public enum TapiError : Swift.Error {
+    case pingError(message: Swift.String)
+    case actionError(message: Swift.String)
+    case cancelError(message: Swift.String)
+    case refundError(message: Swift.String)
+    case customerError(message: Swift.String)
+    case checkoutError(message: Swift.String)
+    case changePaymentError(message: Swift.String)
+    case cardTokenizationError(message: Swift.String)
+  }
+  public var description: Swift.String {
+    get
+  }
+}
+public protocol TapiDelegate : AnyObject {
+  func tapiManager(_ tapiManager: TapiSDK.TapiManager, didSendEvent event: TapiSDK.TapiEvent)
+  func tapiManager(_ tapiManager: TapiSDK.TapiManager, isPresentingManualEntryViewController viewController: UIKit.UIViewController)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class TapiManager : ObjectiveC.NSObject {
+  convenience public init(_ configuration: TapiSDK.TapiConfiguration = .init(), delegate: (any TapiSDK.TapiDelegate)? = nil)
+  final public func checkout(_ order: TapiSDK.Order, transactionType: TapiSDK.TransactionType, posCheckoutID: Swift.String = UUID().uuidString.lowercased(), appliedDiscounts: [TapiSDK.Discount]? = nil, pointsOverride: Swift.Int? = nil)
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func checkout(_ order: TapiSDK.Order, transactionType: TapiSDK.TransactionType, posCheckoutID: Swift.String = UUID().uuidString.lowercased(), appliedDiscounts: [TapiSDK.Discount]? = nil, pointsOverride: Swift.Int? = nil) async
+  #endif
+  final public func sendAction(_ action: TapiSDK.TapiAction)
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func sendAction(_ action: TapiSDK.TapiAction) async
+  #endif
+  final public func cancelCurrentCheckout()
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func cancelCurrentCheckout() async
+  #endif
+  final public func refund(referenceID: Swift.String, for amount: Swift.Int)
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func refund(referenceID: Swift.String, for amount: Swift.Int) async
+  #endif
+  final public func changePaymentType(to paymentType: TapiSDK.PaymentChangeType, with cardInformation: TapiSDK.CardInformation? = nil)
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func changePaymentType(to paymentType: TapiSDK.PaymentChangeType, with cardInformation: TapiSDK.CardInformation? = nil) async
+  #endif
+  final public func resetSession()
+  final public func restartSession()
+  @objc deinit
+}
+public enum TapiSkipOption {
+  case tips
+  case rewardNotification
+  case signin
+  public static func == (a: TapiSDK.TapiSkipOption, b: TapiSDK.TapiSkipOption) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum TransactionType : Swift.String, Swift.Codable {
+  case cash
+  case credit
+  case other
+  case cardPresent
+  case cardNotPresent
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension TapiSDK.ActionStatus : Swift.Equatable {}
+extension TapiSDK.ActionStatus : Swift.Hashable {}
+extension TapiSDK.ActionStatus : Swift.RawRepresentable {}
+extension TapiSDK.CancelCheckoutStatus : Swift.Equatable {}
+extension TapiSDK.CancelCheckoutStatus : Swift.Hashable {}
+extension TapiSDK.CancelCheckoutStatus : Swift.RawRepresentable {}
+extension TapiSDK.CheckoutChangePaymentStatus : Swift.Equatable {}
+extension TapiSDK.CheckoutChangePaymentStatus : Swift.Hashable {}
+extension TapiSDK.CheckoutChangePaymentStatus : Swift.RawRepresentable {}
+extension TapiSDK.TransactionStatus : Swift.Equatable {}
+extension TapiSDK.TransactionStatus : Swift.Hashable {}
+extension TapiSDK.TransactionStatus : Swift.RawRepresentable {}
+extension TapiSDK.DeviceState : Swift.Equatable {}
+extension TapiSDK.DeviceState : Swift.Hashable {}
+extension TapiSDK.DeviceState : Swift.RawRepresentable {}
+extension TapiSDK.PaymentChangeType : Swift.Equatable {}
+extension TapiSDK.PaymentChangeType : Swift.Hashable {}
+extension TapiSDK.PaymentChangeType : Swift.RawRepresentable {}
+extension TapiSDK.RefundStatus : Swift.Equatable {}
+extension TapiSDK.RefundStatus : Swift.Hashable {}
+extension TapiSDK.RefundStatus : Swift.RawRepresentable {}
+extension TapiSDK.StartCheckoutRequestStatus : Swift.Equatable {}
+extension TapiSDK.StartCheckoutRequestStatus : Swift.Hashable {}
+extension TapiSDK.StartCheckoutRequestStatus : Swift.RawRepresentable {}
+extension TapiSDK.TapiEnvironment : Swift.Equatable {}
+extension TapiSDK.TapiEnvironment : Swift.Hashable {}
+extension TapiSDK.TapiSkipOption : Swift.Equatable {}
+extension TapiSDK.TapiSkipOption : Swift.Hashable {}
+extension TapiSDK.TransactionType : Swift.Equatable {}
+extension TapiSDK.TransactionType : Swift.Hashable {}
+extension TapiSDK.TransactionType : Swift.RawRepresentable {}
