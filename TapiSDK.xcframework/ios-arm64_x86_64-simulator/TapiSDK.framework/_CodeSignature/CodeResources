@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Ex5wnedZQFv7a6FbKTtqH58uBXk=
+		+7c/+NIDYM+s5BmfdHisnA+WX7A=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		72fjbvXcU17XrvAztjdW+svCRqw=
+		aPuahLp+vhnl438YIZPn8NwFPU4=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+uriUv073raf0+nxg32w5oBkziA=
+		73XNG7u+OONvlm7lcqEaY3j1GHY=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+IHeMMBlb2kqJ6z0i0c0m/qDAX0=
+		hc1oMnZjZNBQDdpcvte1UjI5trQ=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+uriUv073raf0+nxg32w5oBkziA=
+		73XNG7u+OONvlm7lcqEaY3j1GHY=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LnPfCZHfDt6wLAzSc5Yao2VQCxc=
+		dobjocb7yxc8zel3D1QPERIFKM4=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		72fjbvXcU17XrvAztjdW+svCRqw=
+		aPuahLp+vhnl438YIZPn8NwFPU4=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Y+oQ2NBrC8+KeglmteXvtCkEW4o=
+		Mw5Ma2YBY6Lrwto9O2q/81e6wnk=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Qyn2HzDtBXy3mUhxyus0XGn0/nM=
+		JEqC2VmVYq3VEo9Upe1GfO2wluw=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Y+oQ2NBrC8+KeglmteXvtCkEW4o=
+		Mw5Ma2YBY6Lrwto9O2q/81e6wnk=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6QhY5sl82X6dGj+3hRJH+Ix09Gs=
+		XavSuvIdSTq2wLbd+MEy4mIEvv8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1wMOvkmCKDg2Ql5yTy+I9tcFXvd7HQ/W0132h676btE=
+			RhkdLBfe1sv8HBpH1e0UFQGtnWyovplAE+596KLH2CY=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/vAR3wwgB9/fzEXpzs0g+/P0hbTwdEd2cWh4ZLpH9eo=
+			xI1cpduzRP5buYsteYj/kSH2zu3VVZ/6qJPdxXcu0Pg=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X4kUUcchMAILRAbzJ5+xm9l7pg+r/sU8tCn5EWuW0oI=
+			P8XlfBg7sjT6qy2DR05wtzkiL+rhynjVEf2XPTRK7H0=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/vAR3wwgB9/fzEXpzs0g+/P0hbTwdEd2cWh4ZLpH9eo=
+			xI1cpduzRP5buYsteYj/kSH2zu3VVZ/6qJPdxXcu0Pg=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J9Izqc3Ahl1sQNGOUWc/TwSUNrVJcST3iXGFm0wwe2A=
+			rgmSY8VRMC1uYEuGPkirvF/QtwKg/r14Yd7r3NQcoRI=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1wMOvkmCKDg2Ql5yTy+I9tcFXvd7HQ/W0132h676btE=
+			RhkdLBfe1sv8HBpH1e0UFQGtnWyovplAE+596KLH2CY=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BGgR2L3N3znMd+HTls5Bl4RiPRjfz0s3duG78Yw0ozI=
+			vd3+sMPFqvw5JvOOcUXta9fHAI4wdd8lqdc2K47K0T8=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rey7gSCtHZIHxoqgmHySY2ZQj1lyWanIsjOwjP9qluE=
+			ByrZ8w6J+Fvzj3ReKp3Xu4HRb6yjE6Bkvbm21nbF+VQ=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BGgR2L3N3znMd+HTls5Bl4RiPRjfz0s3duG78Yw0ozI=
+			vd3+sMPFqvw5JvOOcUXta9fHAI4wdd8lqdc2K47K0T8=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IbYpOeowTbA9Ee4A0CIiWxsa9R0+nKNJTn+L8VIfYSk=
+			FoEUD10jW1LVaSqjztOd2JNuizIZiDLlKQ1eJWPGGNo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
