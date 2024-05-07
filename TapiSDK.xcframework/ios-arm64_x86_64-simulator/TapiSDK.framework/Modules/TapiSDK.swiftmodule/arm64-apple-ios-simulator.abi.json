@@ -1754,6 +1754,43 @@
           },
           {
             "kind": "Var",
+            "name": "switchedToCard",
+            "printedName": "switchedToCard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapiSDK.CheckoutChangePaymentStatus.Type) -> TapiSDK.CheckoutChangePaymentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutChangePaymentStatus",
+                    "printedName": "TapiSDK.CheckoutChangePaymentStatus",
+                    "usr": "s:7TapiSDK27CheckoutChangePaymentStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapiSDK.CheckoutChangePaymentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutChangePaymentStatus",
+                        "printedName": "TapiSDK.CheckoutChangePaymentStatus",
+                        "usr": "s:7TapiSDK27CheckoutChangePaymentStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7TapiSDK27CheckoutChangePaymentStatusO14switchedToCardyA2CmF",
+            "mangledName": "$s7TapiSDK27CheckoutChangePaymentStatusO14switchedToCardyA2CmF",
+            "moduleName": "TapiSDK"
+          },
+          {
+            "kind": "Var",
             "name": "unableToSwitch",
             "printedName": "unableToSwitch",
             "children": [
@@ -1787,6 +1824,80 @@
             "declKind": "EnumElement",
             "usr": "s:7TapiSDK27CheckoutChangePaymentStatusO14unableToSwitchyA2CmF",
             "mangledName": "$s7TapiSDK27CheckoutChangePaymentStatusO14unableToSwitchyA2CmF",
+            "moduleName": "TapiSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "keyedPresentUpdated",
+            "printedName": "keyedPresentUpdated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapiSDK.CheckoutChangePaymentStatus.Type) -> TapiSDK.CheckoutChangePaymentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutChangePaymentStatus",
+                    "printedName": "TapiSDK.CheckoutChangePaymentStatus",
+                    "usr": "s:7TapiSDK27CheckoutChangePaymentStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapiSDK.CheckoutChangePaymentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutChangePaymentStatus",
+                        "printedName": "TapiSDK.CheckoutChangePaymentStatus",
+                        "usr": "s:7TapiSDK27CheckoutChangePaymentStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7TapiSDK27CheckoutChangePaymentStatusO19keyedPresentUpdatedyA2CmF",
+            "mangledName": "$s7TapiSDK27CheckoutChangePaymentStatusO19keyedPresentUpdatedyA2CmF",
+            "moduleName": "TapiSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unableToSwitchKeyedPresent",
+            "printedName": "unableToSwitchKeyedPresent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapiSDK.CheckoutChangePaymentStatus.Type) -> TapiSDK.CheckoutChangePaymentStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutChangePaymentStatus",
+                    "printedName": "TapiSDK.CheckoutChangePaymentStatus",
+                    "usr": "s:7TapiSDK27CheckoutChangePaymentStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapiSDK.CheckoutChangePaymentStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutChangePaymentStatus",
+                        "printedName": "TapiSDK.CheckoutChangePaymentStatus",
+                        "usr": "s:7TapiSDK27CheckoutChangePaymentStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7TapiSDK27CheckoutChangePaymentStatusO26unableToSwitchKeyedPresentyA2CmF",
+            "mangledName": "$s7TapiSDK27CheckoutChangePaymentStatusO26unableToSwitchKeyedPresentyA2CmF",
             "moduleName": "TapiSDK"
           },
           {
@@ -8792,6 +8903,80 @@
             "moduleName": "TapiSDK"
           },
           {
+            "kind": "Var",
+            "name": "card",
+            "printedName": "card",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapiSDK.PaymentChangeType.Type) -> TapiSDK.PaymentChangeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentChangeType",
+                    "printedName": "TapiSDK.PaymentChangeType",
+                    "usr": "s:7TapiSDK17PaymentChangeTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapiSDK.PaymentChangeType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentChangeType",
+                        "printedName": "TapiSDK.PaymentChangeType",
+                        "usr": "s:7TapiSDK17PaymentChangeTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7TapiSDK17PaymentChangeTypeO4cardyA2CmF",
+            "mangledName": "$s7TapiSDK17PaymentChangeTypeO4cardyA2CmF",
+            "moduleName": "TapiSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "cardPresent",
+            "printedName": "cardPresent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapiSDK.PaymentChangeType.Type) -> TapiSDK.PaymentChangeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PaymentChangeType",
+                    "printedName": "TapiSDK.PaymentChangeType",
+                    "usr": "s:7TapiSDK17PaymentChangeTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapiSDK.PaymentChangeType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PaymentChangeType",
+                        "printedName": "TapiSDK.PaymentChangeType",
+                        "usr": "s:7TapiSDK17PaymentChangeTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7TapiSDK17PaymentChangeTypeO11cardPresentyA2CmF",
+            "mangledName": "$s7TapiSDK17PaymentChangeTypeO11cardPresentyA2CmF",
+            "moduleName": "TapiSDK"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -12692,6 +12877,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "VGSCollectSDK",
+        "printedName": "VGSCollectSDK",
+        "declKind": "Import",
+        "moduleName": "TapiSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "TapiDelegate",
         "printedName": "TapiDelegate",
@@ -14051,2044 +14243,2114 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Actions.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Actions.swift",
       "kind": "StringLiteral",
       "offset": 196,
       "length": 10,
       "value": "\"\/actions\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Actions.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Actions.swift",
       "kind": "StringLiteral",
       "offset": 1269,
       "length": 21,
       "value": "\"screensaver_enabled\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Actions.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Actions.swift",
       "kind": "StringLiteral",
       "offset": 1269,
       "length": 21,
       "value": "\"screensaver_enabled\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Actions.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Actions.swift",
       "kind": "StringLiteral",
       "offset": 1936,
       "length": 10,
       "value": "\"\/actions\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/ActionStatus.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/ActionStatus.swift",
       "kind": "StringLiteral",
       "offset": 274,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/ActionStatus.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/ActionStatus.swift",
       "kind": "StringLiteral",
       "offset": 303,
       "length": 9,
       "value": "\"FAILURE\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/ActionStatus.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/ActionStatus.swift",
       "kind": "StringLiteral",
       "offset": 274,
       "length": 9,
       "value": "\"SUCCESS\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/ActionStatus.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/ActionStatus.swift",
       "kind": "StringLiteral",
       "offset": 303,
       "length": 9,
       "value": "\"FAILURE\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CancelCheckoutStatus.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CancelCheckoutStatus.swift",
       "kind": "StringLiteral",
       "offset": 320,
       "length": 22,
       "value": "\"TRANSACTION_CANCELED\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CancelCheckoutStatus.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CancelCheckoutStatus.swift",
       "kind": "StringLiteral",
       "offset": 369,
       "length": 18,
       "value": "\"UNABLE_TO_CANCEL\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CancelCheckoutStatus.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CancelCheckoutStatus.swift",
       "kind": "StringLiteral",
       "offset": 320,
       "length": 22,
       "value": "\"TRANSACTION_CANCELED\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CancelCheckoutStatus.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CancelCheckoutStatus.swift",
       "kind": "StringLiteral",
       "offset": 369,
       "length": 18,
       "value": "\"UNABLE_TO_CANCEL\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CardInformation.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CardInformation.swift",
       "kind": "StringLiteral",
       "offset": 431,
       "length": 13,
       "value": "\"account_uid\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CardInformation.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CardInformation.swift",
       "kind": "StringLiteral",
       "offset": 431,
       "length": 13,
       "value": "\"account_uid\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CardInformation.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CardInformation.swift",
       "kind": "StringLiteral",
       "offset": 1271,
       "length": 17,
       "value": "\"expiration_date\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CardInformation.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CardInformation.swift",
       "kind": "StringLiteral",
       "offset": 1331,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CardInformation.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CardInformation.swift",
       "kind": "StringLiteral",
       "offset": 1271,
       "length": 17,
       "value": "\"expiration_date\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CardInformation.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CardInformation.swift",
       "kind": "StringLiteral",
       "offset": 1331,
       "length": 12,
       "value": "\"created_at\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutChangePaymentResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutChangePaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 520,
       "length": 18,
       "value": "\"SWITCHED_TO_CASH\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutChangePaymentResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutChangePaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 565,
+      "length": 18,
+      "value": "\"SWITCHED_TO_CARD\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutChangePaymentResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 610,
       "length": 18,
       "value": "\"UNABLE_TO_SWITCH\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutChangePaymentResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutChangePaymentResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 660,
+      "length": 23,
+      "value": "\"KEYED_PRESENT_UPDATED\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutChangePaymentResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 722,
+      "length": 32,
+      "value": "\"UNABLE_TO_UPDATE_KEYED_PRESENT\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutChangePaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 520,
       "length": 18,
       "value": "\"SWITCHED_TO_CASH\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutChangePaymentResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutChangePaymentResponse.swift",
       "kind": "StringLiteral",
       "offset": 565,
+      "length": 18,
+      "value": "\"SWITCHED_TO_CARD\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutChangePaymentResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 610,
       "length": 18,
       "value": "\"UNABLE_TO_SWITCH\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutChangePaymentResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 660,
+      "length": 23,
+      "value": "\"KEYED_PRESENT_UPDATED\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutChangePaymentResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 722,
+      "length": 32,
+      "value": "\"UNABLE_TO_UPDATE_KEYED_PRESENT\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 970,
       "length": 20,
       "value": "\"checkout_reference\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1036,
       "length": 10,
       "value": "\"card_uid\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1098,
       "length": 19,
       "value": "\"refundable_amount\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1179,
       "length": 11,
       "value": "\"card_type\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 970,
       "length": 20,
       "value": "\"checkout_reference\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1036,
       "length": 10,
       "value": "\"card_uid\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1098,
       "length": 19,
       "value": "\"refundable_amount\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1179,
       "length": 11,
       "value": "\"card_type\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1321,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1353,
       "length": 12,
       "value": "\"SUCCESSFUL\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1391,
       "length": 17,
       "value": "\"CANCELED_BY_POS\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1439,
       "length": 22,
       "value": "\"CANCELED_BY_CUSTOMER\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1487,
       "length": 16,
       "value": "\"DECLINED_ERROR\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1535,
       "length": 24,
       "value": "\"DECLINED_ERROR_DIP_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1593,
       "length": 26,
       "value": "\"DECLINED_ERROR_SWIPE_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1651,
       "length": 23,
       "value": "\"PAYMENT_GENERAL_ERROR\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1707,
       "length": 25,
       "value": "\"PAYMENT_GENERAL_DIP_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1767,
       "length": 27,
       "value": "\"PAYMENT_GENERAL_SWIPE_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1819,
       "length": 16,
       "value": "\"DIP_READ_ERROR\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1863,
       "length": 20,
       "value": "\"DIP_READ_ERROR_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1910,
       "length": 18,
       "value": "\"SWIPE_READ_ERROR\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1958,
       "length": 22,
       "value": "\"SWIPE_READ_ERROR_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 2005,
       "length": 16,
       "value": "\"NFC_READ_ERROR\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 2052,
       "length": 23,
       "value": "\"NFC_DECLINE_ERROR_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 2106,
       "length": 23,
       "value": "\"NFC_GENERAL_ERROR_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 2152,
       "length": 13,
       "value": "\"SCREEN_TIPS\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 2192,
       "length": 17,
       "value": "\"SCREEN_APPROVAL\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 2246,
       "length": 28,
       "value": "\"SCREEN_REWARD_NOTIFICATION\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1321,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1353,
       "length": 12,
       "value": "\"SUCCESSFUL\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1391,
       "length": 17,
       "value": "\"CANCELED_BY_POS\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1439,
       "length": 22,
       "value": "\"CANCELED_BY_CUSTOMER\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1487,
       "length": 16,
       "value": "\"DECLINED_ERROR\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1535,
       "length": 24,
       "value": "\"DECLINED_ERROR_DIP_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1593,
       "length": 26,
       "value": "\"DECLINED_ERROR_SWIPE_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1651,
       "length": 23,
       "value": "\"PAYMENT_GENERAL_ERROR\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1707,
       "length": 25,
       "value": "\"PAYMENT_GENERAL_DIP_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1767,
       "length": 27,
       "value": "\"PAYMENT_GENERAL_SWIPE_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1819,
       "length": 16,
       "value": "\"DIP_READ_ERROR\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1863,
       "length": 20,
       "value": "\"DIP_READ_ERROR_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1910,
       "length": 18,
       "value": "\"SWIPE_READ_ERROR\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1958,
       "length": 22,
       "value": "\"SWIPE_READ_ERROR_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 2005,
       "length": 16,
       "value": "\"NFC_READ_ERROR\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 2052,
       "length": 23,
       "value": "\"NFC_DECLINE_ERROR_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 2106,
       "length": 23,
       "value": "\"NFC_GENERAL_ERROR_MSG\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 2152,
       "length": 13,
       "value": "\"SCREEN_TIPS\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 2192,
       "length": 17,
       "value": "\"SCREEN_APPROVAL\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 2246,
       "length": 28,
       "value": "\"SCREEN_REWARD_NOTIFICATION\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 534,
       "length": 12,
       "value": "\"\/checkouts\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2163,
       "length": 22,
       "value": "\"customer_account_uid\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2226,
       "length": 19,
       "value": "\"discounts_applied\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2283,
       "length": 17,
       "value": "\"pos_checkout_id\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2339,
       "length": 17,
       "value": "\"points_override\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2388,
       "length": 10,
       "value": "\"skip_tip\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2445,
       "length": 26,
       "value": "\"skip_reward_notification\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2506,
       "length": 13,
       "value": "\"skip_signin\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2612,
       "length": 18,
       "value": "\"card_information\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2163,
       "length": 22,
       "value": "\"customer_account_uid\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2226,
       "length": 19,
       "value": "\"discounts_applied\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2283,
       "length": 17,
       "value": "\"pos_checkout_id\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2339,
       "length": 17,
       "value": "\"points_override\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2388,
       "length": 10,
       "value": "\"skip_tip\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2445,
       "length": 26,
       "value": "\"skip_reward_notification\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2506,
       "length": 13,
       "value": "\"skip_signin\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 2612,
       "length": 18,
       "value": "\"card_information\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "IntegerLiteral",
       "offset": 4155,
       "length": 3,
       "value": "125"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 4391,
       "length": 12,
       "value": "\"\/checkouts\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Checkouts.swift",
       "kind": "StringLiteral",
       "offset": 5741,
       "length": 19,
       "value": "\"\/checkouts\/cancel\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Customer.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 580,
       "length": 13,
       "value": "\"picture_url\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Customer.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 629,
       "length": 14,
       "value": "\"total_points\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Customer.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 675,
       "length": 13,
       "value": "\"visit_count\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Customer.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 580,
       "length": 13,
       "value": "\"picture_url\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Customer.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 629,
       "length": 14,
       "value": "\"total_points\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Customer.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Customer.swift",
       "kind": "StringLiteral",
       "offset": 675,
       "length": 13,
       "value": "\"visit_count\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CustomerDevice.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CustomerDevice.swift",
       "kind": "StringLiteral",
       "offset": 314,
       "length": 20,
       "value": "\"device_state_title\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CustomerDevice.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/CustomerDevice.swift",
       "kind": "StringLiteral",
       "offset": 314,
       "length": 20,
       "value": "\"device_state_title\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Customers.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Customers.swift",
       "kind": "IntegerLiteral",
       "offset": 260,
       "length": 3,
       "value": "125"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/Utilities\/DateParser.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/Utilities\/DateParser.swift",
       "kind": "StringLiteral",
       "offset": 603,
       "length": 13,
       "value": "\"en_US_POSIX\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/Utilities\/DateParser.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/Utilities\/DateParser.swift",
       "kind": "StringLiteral",
       "offset": 700,
       "length": 28,
       "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSSZ\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/Utilities\/DateParser.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/Utilities\/DateParser.swift",
       "kind": "StringLiteral",
       "offset": 785,
       "length": 5,
       "value": "\"GMT\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/Utilities\/DebugLogger.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/Utilities\/DebugLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 452,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
       "kind": "StringLiteral",
       "offset": 178,
       "length": 6,
       "value": "\"IDLE\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 13,
       "value": "\"CHECKING_IN\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
       "kind": "StringLiteral",
       "offset": 250,
       "length": 20,
       "value": "\"SELECTING_DISCOUNT\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
       "kind": "StringLiteral",
       "offset": 298,
       "length": 18,
       "value": "\"AWAITING_PAYMENT\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
       "kind": "StringLiteral",
       "offset": 345,
       "length": 19,
       "value": "\"AWAITING_CHECKOUT\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
       "kind": "StringLiteral",
       "offset": 178,
       "length": 6,
       "value": "\"IDLE\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
       "kind": "StringLiteral",
       "offset": 207,
       "length": 13,
       "value": "\"CHECKING_IN\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
       "kind": "StringLiteral",
       "offset": 250,
       "length": 20,
       "value": "\"SELECTING_DISCOUNT\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
       "kind": "StringLiteral",
       "offset": 298,
       "length": 18,
       "value": "\"AWAITING_PAYMENT\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/DeviceState.swift",
       "kind": "StringLiteral",
       "offset": 345,
       "length": 19,
       "value": "\"AWAITING_CHECKOUT\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Discount.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Discount.swift",
       "kind": "StringLiteral",
       "offset": 631,
       "length": 18,
       "value": "\"partner_metadata\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Discount.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Discount.swift",
       "kind": "StringLiteral",
       "offset": 631,
       "length": 18,
       "value": "\"partner_metadata\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 306,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 345,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 382,
       "length": 8,
       "value": "\"Accept\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 17,
       "value": "\"Accept-Encoding\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 456,
       "length": 12,
       "value": "\"User-Agent\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 486,
       "length": 8,
       "value": "\"pos-id\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 517,
       "length": 23,
       "value": "\"fivestars-software-id\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 306,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 345,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 382,
       "length": 8,
       "value": "\"Accept\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 417,
       "length": 17,
       "value": "\"Accept-Encoding\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 456,
       "length": 12,
       "value": "\"User-Agent\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 486,
       "length": 8,
       "value": "\"pos-id\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 517,
       "length": 23,
       "value": "\"fivestars-software-id\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 585,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 607,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 629,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 653,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 585,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 607,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 629,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Helpers\/HTTPRequest.swift",
       "kind": "StringLiteral",
       "offset": 653,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 1004,
       "length": 14,
       "value": "\"pos_order_id\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 1046,
       "length": 14,
       "value": "\"created_time\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 1004,
       "length": 14,
       "value": "\"pos_order_id\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 1046,
       "length": 14,
       "value": "\"created_time\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4188,
       "length": 11,
       "value": "\"class_uid\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4228,
       "length": 15,
       "value": "\"instance_uids\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4322,
       "length": 20,
       "value": "\"pre_tax_unit_price\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4375,
       "length": 21,
       "value": "\"pre_tax_total_price\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4430,
       "length": 22,
       "value": "\"post_tax_total_price\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4485,
       "length": 21,
       "value": "\"post_tax_unit_price\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4533,
       "length": 14,
       "value": "\"per_unit_tax\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4572,
       "length": 11,
       "value": "\"total_tax\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4607,
       "length": 10,
       "value": "\"tax_rate\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4644,
       "length": 14,
       "value": "\"show_pre_tax\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4188,
       "length": 11,
       "value": "\"class_uid\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4228,
       "length": 15,
       "value": "\"instance_uids\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4322,
       "length": 20,
       "value": "\"pre_tax_unit_price\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4375,
       "length": 21,
       "value": "\"pre_tax_total_price\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4430,
       "length": 22,
       "value": "\"post_tax_total_price\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4485,
       "length": 21,
       "value": "\"post_tax_unit_price\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4533,
       "length": 14,
       "value": "\"per_unit_tax\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4572,
       "length": 11,
       "value": "\"total_tax\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4607,
       "length": 10,
       "value": "\"tax_rate\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 4644,
       "length": 14,
       "value": "\"show_pre_tax\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 7958,
       "length": 11,
       "value": "\"class_uid\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 8022,
       "length": 14,
       "value": "\"instance_uid\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 8066,
       "length": 17,
       "value": "\"post_tax_amount\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 8112,
       "length": 16,
       "value": "\"pre_tax_amount\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 8155,
       "length": 14,
       "value": "\"show_pre_tax\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 7958,
       "length": 11,
       "value": "\"class_uid\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 8022,
       "length": 14,
       "value": "\"instance_uid\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 8066,
       "length": 17,
       "value": "\"post_tax_amount\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 8112,
       "length": 16,
       "value": "\"pre_tax_amount\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
       "offset": 8155,
       "length": 14,
       "value": "\"show_pre_tax\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 320,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 708,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 863,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 909,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
       "kind": "FloatLiteral",
       "offset": 1064,
       "length": 3,
       "value": "0.3"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1350,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 1418,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1451,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1498,
       "length": 1,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1532,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
       "kind": "StringLiteral",
       "offset": 130,
       "length": 38,
       "value": "\"TapiSDK.KeyboardAwareBottomSheetViewController\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1313,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1542,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1848,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 1927,
       "length": 20,
       "value": "\"Enter Card Details\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 1991,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2042,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 2219,
       "length": 32,
       "value": "\"impression.payload.card.number\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 2346,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 2485,
       "length": 21,
       "value": "\"4111 1111 1111 1111\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 2574,
       "length": 9,
       "value": "\"#999999\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 2909,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 3108,
       "length": 41,
       "value": "\"impression.payload.card.expiration_date\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3196,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 3375,
       "length": 6,
       "value": "\"%02d\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 3465,
       "length": 6,
       "value": "\"%02d\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 3521,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 3601,
       "length": 18,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 3610,
       "length": 1,
       "value": "\"\/\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 3618,
       "length": 70,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 3687,
       "length": 9,
       "value": "\"#999999\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 3932,
       "length": 29,
       "value": "\"impression.payload.card.cvc\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4039,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4081,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 4205,
       "length": 5,
       "value": "\"CVC\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 4278,
       "length": 9,
       "value": "\"#999999\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 4524,
       "length": 24,
       "value": "\"impression.payload.zip\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 4626,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 4724,
       "length": 12,
       "value": "\"#####-####\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 4851,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 4859,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 4870,
       "length": 14,
       "value": "\"WRONG LENGTH\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 4933,
       "length": 13,
       "value": "\"^[0-9]\\d*$\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 4955,
       "length": 16,
       "value": "\"PATTERN FAILED\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 5111,
       "length": 10,
       "value": "\"ZIP CODE\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 5189,
       "length": 9,
       "value": "\"#999999\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 5416,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 5426,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 5438,
       "length": 2,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 5449,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 5482,
       "length": 24,
       "value": "\"Charge \""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 5502,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 5505,
       "length": 18,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 5895,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 5990,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 6100,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 963,
       "length": 25,
       "value": "\"TapiSDK.ManualEntryViewController\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "StringLiteral",
       "offset": 11927,
       "length": 7,
       "value": "\"keyed\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/ManualEntryViewController.swift",
       "kind": "IntegerLiteral",
       "offset": 11956,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Order.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Order.swift",
       "kind": "StringLiteral",
       "offset": 586,
       "length": 14,
       "value": "\"pos_order_id\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Order.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Order.swift",
       "kind": "StringLiteral",
       "offset": 586,
       "length": 14,
       "value": "\"pos_order_id\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/PaymentChangeType.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/PaymentChangeType.swift",
       "kind": "StringLiteral",
-      "offset": 323,
+      "offset": 239,
       "length": 6,
       "value": "\"CASH\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/PaymentChangeType.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/PaymentChangeType.swift",
       "kind": "StringLiteral",
-      "offset": 323,
+      "offset": 262,
+      "length": 6,
+      "value": "\"CARD\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/PaymentChangeType.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 15,
+      "value": "\"KEYED_PRESENT\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/PaymentChangeType.swift",
+      "kind": "StringLiteral",
+      "offset": 239,
       "length": 6,
       "value": "\"CASH\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Ping.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/PaymentChangeType.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 6,
+      "value": "\"CARD\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/PaymentChangeType.swift",
+      "kind": "StringLiteral",
+      "offset": 292,
+      "length": 15,
+      "value": "\"KEYED_PRESENT\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Endpoints\/Ping.swift",
       "kind": "StringLiteral",
       "offset": 167,
       "length": 7,
       "value": "\"\/ping\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/PingResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/PingResponse.swift",
       "kind": "StringLiteral",
       "offset": 560,
       "length": 12,
       "value": "\"ip_address\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/PingResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/PingResponse.swift",
       "kind": "StringLiteral",
       "offset": 560,
       "length": 12,
       "value": "\"ip_address\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
       "kind": "StringLiteral",
       "offset": 650,
       "length": 16,
       "value": "\"price_with_vat\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 20,
       "value": "\"receipt_nest_level\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
       "kind": "StringLiteral",
       "offset": 773,
       "length": 19,
       "value": "\"single_vat_amount\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
       "kind": "StringLiteral",
       "offset": 819,
       "length": 13,
       "value": "\"total_price\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
       "kind": "StringLiteral",
       "offset": 861,
       "length": 16,
       "value": "\"total_with_vat\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
       "kind": "StringLiteral",
       "offset": 901,
       "length": 10,
       "value": "\"vat_rate\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
       "kind": "StringLiteral",
       "offset": 937,
       "length": 12,
       "value": "\"vat_amount\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
       "kind": "StringLiteral",
       "offset": 650,
       "length": 16,
       "value": "\"price_with_vat\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 20,
       "value": "\"receipt_nest_level\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
       "kind": "StringLiteral",
       "offset": 773,
       "length": 19,
       "value": "\"single_vat_amount\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
       "kind": "StringLiteral",
       "offset": 819,
       "length": 13,
       "value": "\"total_price\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
       "kind": "StringLiteral",
       "offset": 861,
       "length": 16,
       "value": "\"total_with_vat\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
       "kind": "StringLiteral",
       "offset": 901,
       "length": 10,
       "value": "\"vat_rate\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Product.swift",
       "kind": "StringLiteral",
       "offset": 937,
       "length": 12,
       "value": "\"vat_amount\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/RefundStatus.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/RefundStatus.swift",
       "kind": "StringLiteral",
       "offset": 233,
       "length": 16,
       "value": "\"REFUND_SUCCESS\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/RefundStatus.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/RefundStatus.swift",
       "kind": "StringLiteral",
       "offset": 269,
       "length": 15,
       "value": "\"REFUND_FAILED\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/RefundStatus.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/RefundStatus.swift",
       "kind": "StringLiteral",
       "offset": 233,
       "length": 16,
       "value": "\"REFUND_SUCCESS\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/RefundStatus.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/RefundStatus.swift",
       "kind": "StringLiteral",
       "offset": 269,
       "length": 15,
       "value": "\"REFUND_FAILED\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 698,
       "length": 17,
       "value": "\"pos_checkout_id\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 755,
       "length": 29,
       "value": "\"pos_checkout_id_in_progress\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 698,
       "length": 17,
       "value": "\"pos_checkout_id\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 755,
       "length": 29,
       "value": "\"pos_checkout_id_in_progress\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 930,
       "length": 21,
       "value": "\"TRANSACTION_STARTED\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 997,
       "length": 39,
       "value": "\"PRIOR_TRANSACTION_ALREADY_IN_PROGRESS\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1071,
       "length": 27,
       "value": "\"DUPLICATE_POS_CHECKOUT_ID\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1141,
       "length": 35,
       "value": "\"TRANSACTION_PRECONDITIONS_NOT_MET\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1215,
       "length": 31,
       "value": "\"CUSTOMER_OR_DISCOUNT_MISMATCH\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 930,
       "length": 21,
       "value": "\"TRANSACTION_STARTED\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 997,
       "length": 39,
       "value": "\"PRIOR_TRANSACTION_ALREADY_IN_PROGRESS\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1071,
       "length": 27,
       "value": "\"DUPLICATE_POS_CHECKOUT_ID\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1141,
       "length": 35,
       "value": "\"TRANSACTION_PRECONDITIONS_NOT_MET\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/StartCheckoutResponse.swift",
       "kind": "StringLiteral",
       "offset": 1215,
       "length": 31,
       "value": "\"CUSTOMER_OR_DISCOUNT_MISMATCH\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiConfiguration.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 365,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiConfiguration.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 413,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiConfiguration.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 464,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiConfiguration.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 516,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiConfiguration.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 563,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiConfiguration.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiConfiguration.swift",
       "kind": "Array",
       "offset": 1624,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiManager.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 2836,
+      "offset": 2857,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiManager.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiManager.swift",
       "kind": "FloatLiteral",
-      "offset": 3243,
+      "offset": 3264,
       "length": 3,
       "value": "1.5"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiManager.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/TapiManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 3005,
+      "offset": 3026,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
       "kind": "StringLiteral",
       "offset": 190,
       "length": 6,
       "value": "\"CASH\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
       "kind": "StringLiteral",
       "offset": 215,
       "length": 8,
       "value": "\"CREDIT\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
       "kind": "StringLiteral",
       "offset": 241,
       "length": 7,
       "value": "\"OTHER\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
       "kind": "StringLiteral",
       "offset": 272,
       "length": 15,
       "value": "\"KEYED_PRESENT\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
       "kind": "StringLiteral",
       "offset": 314,
       "length": 19,
       "value": "\"KEYED_NOT_PRESENT\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
       "kind": "StringLiteral",
       "offset": 190,
       "length": 6,
       "value": "\"CASH\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
       "kind": "StringLiteral",
       "offset": 215,
       "length": 8,
       "value": "\"CREDIT\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
       "kind": "StringLiteral",
       "offset": 241,
       "length": 7,
       "value": "\"OTHER\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
       "kind": "StringLiteral",
       "offset": 272,
       "length": 15,
       "value": "\"KEYED_PRESENT\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/TransactionType.swift",
       "kind": "StringLiteral",
       "offset": 314,
       "length": 19,
       "value": "\"KEYED_NOT_PRESENT\""
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/Extensions\/UIViewController+Ext.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/Extensions\/UIViewController+Ext.swift",
       "kind": "BooleanLiteral",
       "offset": 253,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/sumup.user\/Source\/SumUp\/tapi-sdk-ios\/Sources\/TapiSDK\/Extensions\/UIViewController+Ext.swift",
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/Extensions\/UIViewController+Ext.swift",
       "kind": "BooleanLiteral",
       "offset": 284,
       "length": 5,

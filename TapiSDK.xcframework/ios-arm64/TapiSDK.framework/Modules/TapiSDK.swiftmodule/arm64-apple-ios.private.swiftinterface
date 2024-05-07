@@ -74,7 +74,10 @@ public struct CheckoutChangePaymentResponse : Swift.Codable {
 }
 public enum CheckoutChangePaymentStatus : Swift.String, Swift.Codable {
   case switchedToCash
+  case switchedToCard
   case unableToSwitch
+  case keyedPresentUpdated
+  case unableToSwitchKeyedPresent
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -260,6 +263,8 @@ public struct Order : Swift.Codable {
 }
 public enum PaymentChangeType : Swift.String, Swift.Codable {
   case cash
+  case card
+  case cardPresent
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
