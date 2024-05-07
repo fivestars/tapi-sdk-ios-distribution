@@ -16,7 +16,25 @@ The TapiSDK can be integrated using Swift Package Manager or through CocoaPods.
 
 # Cocoapod
 ```
+# Ensure you have the following source defined in your Podfile.
+# Note: You will also need to define the main CP trunk as well - 'https://cdn.cocoapods.org'
+source "https://github.com/fivestars/AnyCodable.git"
+
+# Specify the TapiSDK as a dependency
 pod 'TapiSDK', :git => 'https://github.com/fivestars/tapi-sdk-ios-distribution', :tag => '0.0.3'
+```
+
+Note: You will also need to ensure `BUILD_LIBRARY_FOR_DISTRIBUTION` is set to `YES` and that you have `use_frameworks!` defined in your Podfile. 
+
+If using Cocoapods `v1.10` and higher, you can enable `BUILD_LIBRARY_FOR_DISTRIBUTION` at the project level under `Build Settings` and Cocoapods will ingerit it upon `pod update/install`. You can also use the following `post-install` routine as well for any version of Cocoapods.
+```
+post_install do |installer|
+	installer.pods_project.targets.each do |target|
+		target.build_configurations.each do |config|
+			config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
+		end
+	end
+end
 ```
 
 ## Requirments
