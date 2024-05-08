@@ -1,0 +1,1246 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name VGSCollectSDK
+import Combine
+import Foundation
+import MobileCoreServices
+import Swift
+import SwiftUI
+import UIKit
+@_exported import VGSCollectSDK
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers final public class VGSCalendarUtils {
+  public static var currentYear: Swift.Int {
+    get
+  }
+  public static var currentYearShort: Swift.Int {
+    get
+  }
+  @objc deinit
+}
+extension VGSCollectSDK.VGSPaymentCards.CardBrand {
+  public var cvcFormatPattern: Swift.String {
+    get
+  }
+}
+extension VGSCollectSDK.VGSPaymentCards.CardBrand {
+  public var brandIcon: UIKit.UIImage? {
+    get
+  }
+  public var cvcIcon: UIKit.UIImage? {
+    get
+  }
+}
+extension Foundation.CharacterSet {
+  public static var vgsAsciiDecimalDigits: Foundation.CharacterSet {
+    get
+  }
+}
+public enum CheckSumAlgorithmType {
+  case luhn
+  public static func == (a: VGSCollectSDK.CheckSumAlgorithmType, b: VGSCollectSDK.CheckSumAlgorithmType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension VGSCollectSDK.CheckSumAlgorithmType {
+  public func validate(_ input: Swift.String) -> Swift.Bool
+}
+public protocol VGSScanHandlerProtocol {
+  func presentScanVC(on viewController: UIKit.UIViewController, animated: Swift.Bool, modalPresentationStyle: UIKit.UIModalPresentationStyle, completion: (() -> Swift.Void)?)
+  func dismissScanVC(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+}
+public enum Environment : Swift.String {
+  case sandbox
+  case live
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum FieldType : Swift.Int, Swift.CaseIterable {
+  case none
+  case cardNumber
+  case expDate
+  case date
+  case cvc
+  case cardHolderName
+  case ssn
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [VGSCollectSDK.FieldType]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [VGSCollectSDK.FieldType] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum VGSTextFieldInputSource {
+  case keyboard
+  case datePicker
+  public static func == (a: VGSCollectSDK.VGSTextFieldInputSource, b: VGSCollectSDK.VGSTextFieldInputSource) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class VGSTextFieldState {
+  open var fieldName: Swift.String! {
+    get
+  }
+  open var isRequired: Swift.Bool {
+    get
+  }
+  open var isRequiredValidOnly: Swift.Bool {
+    get
+  }
+  open var isValid: Swift.Bool {
+    get
+  }
+  open var isEmpty: Swift.Bool {
+    get
+  }
+  open var isDirty: Swift.Bool {
+    get
+  }
+  open var inputLength: Swift.Int {
+    get
+  }
+  open var validationErrors: [VGSCollectSDK.VGSValidationError] {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VGSCardState : VGSCollectSDK.VGSTextFieldState {
+  open var last4: Swift.String {
+    get
+  }
+  open var bin: Swift.String {
+    get
+  }
+  open var cardBrand: VGSCollectSDK.VGSPaymentCards.CardBrand {
+    get
+  }
+  override public var description: Swift.String {
+    get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class VGSSSNState : VGSCollectSDK.VGSTextFieldState {
+  open var last4: Swift.String {
+    get
+  }
+  override public var description: Swift.String {
+    get
+  }
+  @objc deinit
+}
+public enum VGSAnalyticsEventType : Swift.String {
+  case fieldInit
+  case hostnameValidation
+  case beforeSubmit
+  case submit
+  case scan
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class VGSAnalyticsClient {
+  public enum AnalyticEventStatus : Swift.String {
+    case success
+    case failed
+    case cancel
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public static let shared: VGSCollectSDK.VGSAnalyticsClient
+  public var shouldCollectAnalytics: Swift.Bool
+  final public let vgsCollectSessionId: Swift.String
+  public func trackFormEvent(_ form: VGSCollectSDK.VGSFormAnanlyticsDetails, type: VGSCollectSDK.VGSAnalyticsEventType, status: VGSCollectSDK.VGSAnalyticsClient.AnalyticEventStatus = .success, extraData: [Swift.String : Any]? = nil)
+  public func trackEvent(_ type: VGSCollectSDK.VGSAnalyticsEventType, status: VGSCollectSDK.VGSAnalyticsClient.AnalyticEventStatus = .success, extraData: [Swift.String : Any]? = nil)
+  @objc deinit
+}
+public struct VGSCardHolderNameTokenizationParameters : VGSCollectSDK.VGSTokenizationParametersProtocol {
+  public var storage: Swift.String
+  public var format: Swift.String
+}
+@_inheritsConvenienceInitializers public class VGSCardHolderNameTokenizationConfiguration : VGSCollectSDK.VGSConfiguration {
+  public var tokenizationParameters: VGSCollectSDK.VGSCardHolderNameTokenizationParameters
+  override public var type: VGSCollectSDK.FieldType {
+    get
+    set
+  }
+  override public init(collector vgs: VGSCollectSDK.VGSCollect, fieldName: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class VGSCardTextField : VGSCollectSDK.VGSTextField {
+  public enum CardIconLocation {
+    case left
+    case right
+    public static func == (a: VGSCollectSDK.VGSCardTextField.CardIconLocation, b: VGSCollectSDK.VGSCardTextField.CardIconLocation) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) final public var cardIconLocation: VGSCollectSDK.VGSCardTextField.CardIconLocation {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var cardIconSize: CoreFoundation.CGSize {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var cardsIconSource: ((VGSCollectSDK.VGSPaymentCards.CardBrand) -> UIKit.UIImage?)?
+  @_Concurrency.MainActor(unsafe) @objc override final public func didMoveToSuperview()
+  @_Concurrency.MainActor(unsafe) @objc override final public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @objc deinit
+}
+@available(iOS 14.0, *)
+public struct VGSCardTextFieldRepresentable : SwiftUI.UIViewRepresentable {
+  public init(configuration: VGSCollectSDK.VGSConfiguration)
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: VGSCollectSDK.VGSCardTextFieldRepresentable.Context) -> VGSCollectSDK.VGSCardTextField
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: VGSCollectSDK.VGSCardTextField, context: VGSCollectSDK.VGSCardTextFieldRepresentable.Context)
+  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> VGSCollectSDK.VGSCardTextFieldRepresentable.Coordinator
+  public func font(_ font: UIKit.UIFont) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func placeholder(_ text: Swift.String) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func attributedPlaceholder(_ text: Foundation.NSAttributedString?) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func autocapitalizationType(_ type: UIKit.UITextAutocapitalizationType) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func spellCheckingType(_ type: UIKit.UITextSpellCheckingType) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func textFieldPadding(_ insets: UIKit.UIEdgeInsets) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func textAlignment(_ alignment: UIKit.NSTextAlignment) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func setSecureTextEntry(_ secure: Swift.Bool) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func adjustsFontForContentSizeCategory(_ adjusts: Swift.Bool) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func keyboardAccessoryView(_ view: UIKit.UIView?) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func textFieldAccessibilityLabel(_ label: Swift.String) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func border(color: UIKit.UIColor, lineWidth: CoreFoundation.CGFloat) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func cardIconSize(_ size: CoreFoundation.CGSize) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func cardIconLocation(_ location: VGSCollectSDK.VGSCardTextField.CardIconLocation) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func onEditingStart(_ action: (() -> Swift.Void)?) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func onCharacterChange(_ action: (() -> Swift.Void)?) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func onEditingEnd(_ action: (() -> Swift.Void)?) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  public func onStateChange(_ action: ((VGSCollectSDK.VGSCardState) -> Swift.Void)?) -> VGSCollectSDK.VGSCardTextFieldRepresentable
+  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, VGSCollectSDK.VGSTextFieldDelegate {
+    @objc public func vgsTextFieldDidBeginEditing(_ textField: VGSCollectSDK.VGSTextField)
+    @objc public func vgsTextFieldDidChange(_ textField: VGSCollectSDK.VGSTextField)
+    @objc public func vgsTextFieldDidEndEditing(_ textField: VGSCollectSDK.VGSTextField)
+    @objc public func vgsTextFieldDidEndEditingOnReturn(_ textField: VGSCollectSDK.VGSTextField)
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewType = VGSCollectSDK.VGSCardTextField
+}
+public struct VGSCardNumberTokenizationParameters : VGSCollectSDK.VGSTokenizationParametersProtocol {
+  public let storage: Swift.String
+  public var format: Swift.String
+}
+@_inheritsConvenienceInitializers public class VGSCardNumberTokenizationConfiguration : VGSCollectSDK.VGSConfiguration {
+  public var tokenizationParameters: VGSCollectSDK.VGSCardNumberTokenizationParameters
+  override public var type: VGSCollectSDK.FieldType {
+    get
+    set
+  }
+  override public init(collector vgs: VGSCollectSDK.VGSCollect, fieldName: Swift.String)
+  @objc deinit
+}
+public class VGSCollect {
+  public var formAnalyticsDetails: VGSCollectSDK.VGSFormAnanlyticsDetails {
+    get
+  }
+  public var customHeaders: [Swift.String : Swift.String]? {
+    get
+    set
+  }
+  public var observeFieldState: ((_ textField: VGSCollectSDK.VGSTextField) -> Swift.Void)?
+  public var observeStates: ((_ form: [VGSCollectSDK.VGSTextField]) -> Swift.Void)?
+  public var textFields: [VGSCollectSDK.VGSTextField] {
+    get
+  }
+  public init(id: Swift.String, environment: Swift.String, hostname: Swift.String? = nil, satellitePort: Swift.Int? = nil)
+  convenience public init(id: Swift.String, environment: VGSCollectSDK.Environment = .sandbox, dataRegion: Swift.String? = nil, hostname: Swift.String? = nil, satellitePort: Swift.Int? = nil)
+  public func getTextField(fieldName: Swift.String) -> VGSCollectSDK.VGSTextField?
+  public func unsubscribeTextField(_ textField: VGSCollectSDK.VGSTextField)
+  public func unsubscribeTextFields(_ textFields: [VGSCollectSDK.VGSTextField])
+  public func unsubscribeAllTextFields()
+  public func cleanFiles()
+  @objc deinit
+}
+extension VGSCollectSDK.VGSCollect {
+  public func sendData(path: Swift.String, method: VGSCollectSDK.VGSCollectHTTPMethod = .post, routeId: Swift.String? = nil, extraData: [Swift.String : Any]? = nil, requestOptions: VGSCollectSDK.VGSCollectRequestOptions = VGSCollectRequestOptions(), completion block: @escaping (VGSCollectSDK.VGSResponse) -> Swift.Void)
+  public func sendFile(path: Swift.String, method: VGSCollectSDK.VGSCollectHTTPMethod = .post, routeId: Swift.String? = nil, extraData: [Swift.String : Any]? = nil, requestOptions: VGSCollectSDK.VGSCollectRequestOptions = VGSCollectRequestOptions(), completion block: @escaping (VGSCollectSDK.VGSResponse) -> Swift.Void)
+  public func tokenizeData(routeId: Swift.String? = nil, completion block: @escaping (VGSCollectSDK.VGSTokenizationResponse) -> Swift.Void)
+}
+@available(iOS 13, *)
+extension VGSCollectSDK.VGSCollect {
+  #if compiler(>=5.3) && $AsyncAwait
+  public func sendData(path: Swift.String, method: VGSCollectSDK.VGSCollectHTTPMethod = .post, routeId: Swift.String? = nil, extraData: [Swift.String : Any]? = nil, requestOptions: VGSCollectSDK.VGSCollectRequestOptions = VGSCollectRequestOptions()) async -> VGSCollectSDK.VGSResponse
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func sendFile(path: Swift.String, method: VGSCollectSDK.VGSCollectHTTPMethod = .post, routeId: Swift.String? = nil, extraData: [Swift.String : Any]? = nil) async -> VGSCollectSDK.VGSResponse
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public func tokenizeData(routeId: Swift.String? = nil) async -> VGSCollectSDK.VGSTokenizationResponse
+  #endif
+}
+@available(iOS 13, *)
+extension VGSCollectSDK.VGSCollect {
+  public func sendDataPublisher(path: Swift.String, method: VGSCollectSDK.VGSCollectHTTPMethod = .post, routeId: Swift.String? = nil, extraData: [Swift.String : Any]? = nil, requestOptions: VGSCollectSDK.VGSCollectRequestOptions = VGSCollectRequestOptions()) -> Combine.Future<VGSCollectSDK.VGSResponse, Swift.Never>
+  public func sendFilePublisher(path: Swift.String, method: VGSCollectSDK.VGSCollectHTTPMethod = .post, routeId: Swift.String? = nil, extraData: [Swift.String : Any]? = nil, requestOptions: VGSCollectSDK.VGSCollectRequestOptions = VGSCollectRequestOptions()) -> Combine.Future<VGSCollectSDK.VGSResponse, Swift.Never>
+  public func tokenizeDataPublisher(routeId: Swift.String? = nil) -> Combine.Future<VGSCollectSDK.VGSTokenizationResponse, Swift.Never>
+}
+public enum VGSCollectFieldNameMappingPolicy {
+  case flatJSON
+  case nestedJSON
+  case nestedJSONWithArrayMerge
+  case nestedJSONWithArrayOverwrite
+  public static func == (a: VGSCollectSDK.VGSCollectFieldNameMappingPolicy, b: VGSCollectSDK.VGSCollectFieldNameMappingPolicy) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct VGSCollectRequestOptions {
+  public var fieldNameMappingPolicy: VGSCollectSDK.VGSCollectFieldNameMappingPolicy
+  public init()
+}
+public typealias JsonData = [Swift.String : Any]
+public typealias HTTPHeaders = [Swift.String : Swift.String]
+public enum VGSCollectHTTPMethod : Swift.String {
+  case get
+  case post
+  case put
+  case patch
+  case delete
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class VGSCollectLogger {
+  public static var shared: VGSCollectSDK.VGSCollectLogger
+  final public var configuration: VGSCollectSDK.VGSCollectLoggingConfiguration
+  final public func disableAllLoggers()
+  @objc deinit
+}
+public struct VGSCollectLoggingConfiguration {
+  public var level: VGSCollectSDK.VGSLogLevel
+  public var isNetworkDebugEnabled: Swift.Bool
+  public var isExtensiveDebugEnabled: Swift.Bool
+}
+public enum VGSLogLevel : Swift.String {
+  case info
+  case warning
+  case none
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class VGSConfiguration {
+  weak public var vgsCollector: VGSCollectSDK.VGSCollect? {
+    get
+  }
+  public var type: VGSCollectSDK.FieldType
+  final public let fieldName: Swift.String
+  public var isRequired: Swift.Bool
+  public var isRequiredValidOnly: Swift.Bool
+  public var formatPattern: Swift.String? {
+    get
+    set
+  }
+  public var divider: Swift.String?
+  public var keyboardType: UIKit.UIKeyboardType?
+  public var returnKeyType: UIKit.UIReturnKeyType?
+  public var keyboardAppearance: UIKit.UIKeyboardAppearance?
+  public var validationRules: VGSCollectSDK.VGSValidationRuleSet?
+  public var maxInputLength: Swift.Int? {
+    get
+    set
+  }
+  public init(collector vgs: VGSCollectSDK.VGSCollect, fieldName: Swift.String)
+  @objc deinit
+}
+public struct VGSCustomPaymentCardModel : VGSCollectSDK.VGSPaymentCardModelProtocol {
+  public let brand: VGSCollectSDK.VGSPaymentCards.CardBrand
+  public var name: Swift.String
+  public var regex: Swift.String
+  public var cardNumberLengths: [Swift.Int]
+  public var cvcLengths: [Swift.Int]
+  public var checkSumAlgorithm: VGSCollectSDK.CheckSumAlgorithmType?
+  public var formatPattern: Swift.String
+  public var brandIcon: UIKit.UIImage?
+  public var cvcIcon: UIKit.UIImage?
+  public init(name: Swift.String, regex: Swift.String, formatPattern: Swift.String, cardNumberLengths: [Swift.Int], cvcLengths: [Swift.Int] = [3], checkSumAlgorithm: VGSCollectSDK.CheckSumAlgorithmType? = .luhn, brandIcon: UIKit.UIImage?)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class VGSCVCTextField : VGSCollectSDK.VGSTextField {
+  public enum CVCIconLocation {
+    case left
+    case right
+    public static func == (a: VGSCollectSDK.VGSCVCTextField.CVCIconLocation, b: VGSCollectSDK.VGSCVCTextField.CVCIconLocation) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) final public var cvcIconLocation: VGSCollectSDK.VGSCVCTextField.CVCIconLocation {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var cvcIconSize: CoreFoundation.CGSize {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) final public var cvcIconSource: ((VGSCollectSDK.VGSPaymentCards.CardBrand) -> UIKit.UIImage?)?
+  @_Concurrency.MainActor(unsafe) @objc override final public func didMoveToSuperview()
+  @objc deinit
+}
+@available(iOS 14.0, *)
+public struct VGSCVCTextFieldRepresentable : SwiftUI.UIViewRepresentable {
+  public var onEditingStart: (() -> Swift.Void)?
+  public var onCharacterChange: (() -> Swift.Void)?
+  public var onEditingEnd: (() -> Swift.Void)?
+  public var onStateChange: ((VGSCollectSDK.VGSTextFieldState) -> Swift.Void)?
+  public init(configuration: VGSCollectSDK.VGSConfiguration)
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: VGSCollectSDK.VGSCVCTextFieldRepresentable.Context) -> VGSCollectSDK.VGSCVCTextField
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: VGSCollectSDK.VGSCVCTextField, context: VGSCollectSDK.VGSCVCTextFieldRepresentable.Context)
+  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> VGSCollectSDK.VGSCVCTextFieldRepresentable.Coordinator
+  public func font(_ font: UIKit.UIFont) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func placeholder(_ text: Swift.String) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func attributedPlaceholder(_ text: Foundation.NSAttributedString?) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func autocapitalizationType(_ type: UIKit.UITextAutocapitalizationType) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func spellCheckingType(_ type: UIKit.UITextSpellCheckingType) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func textFieldPadding(_ insets: UIKit.UIEdgeInsets) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func textAlignment(_ alignment: UIKit.NSTextAlignment) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func setSecureTextEntry(_ secure: Swift.Bool) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func adjustsFontForContentSizeCategory(_ adjusts: Swift.Bool) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func keyboardAccessoryView(_ view: UIKit.UIView?) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func textFieldAccessibilityLabel(_ label: Swift.String) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func border(color: UIKit.UIColor, lineWidth: CoreFoundation.CGFloat) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func cvcIconSize(_ size: CoreFoundation.CGSize) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func cvcIconLocation(_ location: VGSCollectSDK.VGSCVCTextField.CVCIconLocation) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func cvcIconSource(_ sourceImage: @escaping (VGSCollectSDK.VGSPaymentCards.CardBrand) -> UIKit.UIImage?) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func onEditingStart(_ action: (() -> Swift.Void)?) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func onCharacterChange(_ action: (() -> Swift.Void)?) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func onEditingEnd(_ action: (() -> Swift.Void)?) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  public func onStateChange(_ action: ((VGSCollectSDK.VGSTextFieldState) -> Swift.Void)?) -> VGSCollectSDK.VGSCVCTextFieldRepresentable
+  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, VGSCollectSDK.VGSTextFieldDelegate {
+    @objc public func vgsTextFieldDidBeginEditing(_ textField: VGSCollectSDK.VGSTextField)
+    @objc public func vgsTextFieldDidChange(_ textField: VGSCollectSDK.VGSTextField)
+    @objc public func vgsTextFieldDidEndEditing(_ textField: VGSCollectSDK.VGSTextField)
+    @objc public func vgsTextFieldDidEndEditingOnReturn(_ textField: VGSCollectSDK.VGSTextField)
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewType = VGSCollectSDK.VGSCVCTextField
+}
+public struct VGSCVCTokenizationParameters : VGSCollectSDK.VGSTokenizationParametersProtocol {
+  public let storage: Swift.String
+  public var format: Swift.String
+}
+@_inheritsConvenienceInitializers public class VGSCVCTokenizationConfiguration : VGSCollectSDK.VGSConfiguration {
+  public var tokenizationParameters: VGSCollectSDK.VGSCVCTokenizationParameters
+  override public var type: VGSCollectSDK.FieldType {
+    get
+    set
+  }
+  override public init(collector vgs: VGSCollectSDK.VGSCollect, fieldName: Swift.String)
+  @objc deinit
+}
+public struct VGSDate {
+  public var day: Swift.Int
+  public var month: Swift.Int
+  public var year: Swift.Int
+  public var dayFormatted: Swift.String {
+    get
+  }
+  public var monthFormatted: Swift.String {
+    get
+  }
+  public init?(day: Swift.Int, month: Swift.Int, year: Swift.Int)
+}
+extension VGSCollectSDK.VGSDate : Swift.Comparable {
+  public static func == (lhs: VGSCollectSDK.VGSDate, rhs: VGSCollectSDK.VGSDate) -> Swift.Bool
+  public static func < (lhs: VGSCollectSDK.VGSDate, rhs: VGSCollectSDK.VGSDate) -> Swift.Bool
+}
+public protocol VGSDateConfigurationProtocol {
+  var inputSource: VGSCollectSDK.VGSTextFieldInputSource { get set }
+  var inputDateFormat: VGSCollectSDK.VGSDateFormat? { get set }
+  var outputDateFormat: VGSCollectSDK.VGSDateFormat? { get set }
+}
+final public class VGSDateConfiguration : VGSCollectSDK.VGSConfiguration, VGSCollectSDK.VGSDateConfigurationProtocol {
+  public init(collector vgs: VGSCollectSDK.VGSCollect, fieldName: Swift.String, datePickerStartDate: VGSCollectSDK.VGSDate? = nil, datePickerEndDate: VGSCollectSDK.VGSDate? = nil)
+  override final public var type: VGSCollectSDK.FieldType {
+    get
+    set
+  }
+  final public var inputSource: VGSCollectSDK.VGSTextFieldInputSource
+  final public var inputDateFormat: VGSCollectSDK.VGSDateFormat?
+  final public var outputDateFormat: VGSCollectSDK.VGSDateFormat?
+  final public var serializers: [any VGSCollectSDK.VGSFormatSerializerProtocol]
+  @objc deinit
+}
+extension VGSCollectSDK.VGSDateConfiguration {
+  public static var validYearsCount: Swift.Int
+  public static let minValidPickerStartDate: VGSCollectSDK.VGSDate
+  public static var maxValidPickerEndDate: VGSCollectSDK.VGSDate
+}
+public enum VGSDateFormat {
+  case mmddyyyy
+  case ddmmyyyy
+  case yyyymmdd
+  public var displayFormat: Swift.String {
+    get
+  }
+  public static let `default`: VGSCollectSDK.VGSDateFormat
+  public static func == (a: VGSCollectSDK.VGSDateFormat, b: VGSCollectSDK.VGSDateFormat) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct VGSDateSeparateSerializer : VGSCollectSDK.VGSFormatSerializerProtocol {
+  public let dayFieldName: Swift.String
+  public let monthFieldName: Swift.String
+  public let yearFieldName: Swift.String
+  public init(dayFieldName: Swift.String, monthFieldName: Swift.String, yearFieldName: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class VGSDateTextField : VGSCollectSDK.VGSTextField {
+  public enum MonthFormat {
+    case shortSymbols
+    case longSymbols
+    case numbers
+    public static func == (a: VGSCollectSDK.VGSDateTextField.MonthFormat, b: VGSCollectSDK.VGSDateTextField.MonthFormat) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) final public var monthPickerFormat: VGSCollectSDK.VGSDateTextField.MonthFormat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) override final public var configuration: VGSCollectSDK.VGSConfiguration? {
+    get
+    set
+  }
+  @objc deinit
+}
+extension VGSCollectSDK.VGSDateTextField : UIKit.UIPickerViewDelegate, UIKit.UIPickerViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc final public func numberOfComponents(in pickerView: UIKit.UIPickerView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func pickerView(_ pickerView: UIKit.UIPickerView, numberOfRowsInComponent component: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func pickerView(_ pickerView: UIKit.UIPickerView, titleForRow row: Swift.Int, forComponent component: Swift.Int) -> Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc final public func pickerView(_ pickerView: UIKit.UIPickerView, didSelectRow row: Swift.Int, inComponent component: Swift.Int)
+}
+@available(iOS 14.0, *)
+public struct VGSDateTextFieldRepresentable : SwiftUI.UIViewRepresentable {
+  public var onEditingStart: (() -> Swift.Void)?
+  public var onCharacterChange: (() -> Swift.Void)?
+  public var onEditingEnd: (() -> Swift.Void)?
+  public var onStateChange: ((VGSCollectSDK.VGSTextFieldState) -> Swift.Void)?
+  public init(configuration: VGSCollectSDK.VGSDateConfiguration)
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: VGSCollectSDK.VGSDateTextFieldRepresentable.Context) -> VGSCollectSDK.VGSDateTextField
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: VGSCollectSDK.VGSDateTextField, context: VGSCollectSDK.VGSDateTextFieldRepresentable.Context)
+  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> VGSCollectSDK.VGSDateTextFieldRepresentable.Coordinator
+  public func font(_ font: UIKit.UIFont) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func placeholder(_ text: Swift.String) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func attributedPlaceholder(_ text: Foundation.NSAttributedString?) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func autocapitalizationType(_ type: UIKit.UITextAutocapitalizationType) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func spellCheckingType(_ type: UIKit.UITextSpellCheckingType) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func textFieldPadding(_ insets: UIKit.UIEdgeInsets) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func textAlignment(_ alignment: UIKit.NSTextAlignment) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func setSecureTextEntry(_ secure: Swift.Bool) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func adjustsFontForContentSizeCategory(_ adjusts: Swift.Bool) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func keyboardAccessoryView(_ view: UIKit.UIView?) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func textFieldAccessibilityLabel(_ label: Swift.String) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func border(color: UIKit.UIColor, lineWidth: CoreFoundation.CGFloat) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func monthPickerFormat(_ format: VGSCollectSDK.VGSDateTextField.MonthFormat) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func onEditingStart(_ action: (() -> Swift.Void)?) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func onCharacterChange(_ action: (() -> Swift.Void)?) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func onEditingEnd(_ action: (() -> Swift.Void)?) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  public func onStateChange(_ action: ((VGSCollectSDK.VGSTextFieldState) -> Swift.Void)?) -> VGSCollectSDK.VGSDateTextFieldRepresentable
+  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, VGSCollectSDK.VGSTextFieldDelegate {
+    @objc public func vgsTextFieldDidBeginEditing(_ textField: VGSCollectSDK.VGSTextField)
+    @objc public func vgsTextFieldDidChange(_ textField: VGSCollectSDK.VGSTextField)
+    @objc public func vgsTextFieldDidEndEditing(_ textField: VGSCollectSDK.VGSTextField)
+    @objc public func vgsTextFieldDidEndEditingOnReturn(_ textField: VGSCollectSDK.VGSTextField)
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewType = VGSCollectSDK.VGSDateTextField
+}
+public struct VGSDateTokenizationParameters : VGSCollectSDK.VGSTokenizationParametersProtocol {
+  public var storage: Swift.String
+  public var format: Swift.String
+}
+final public class VGSDateTokenizationConfiguration : VGSCollectSDK.VGSConfiguration, VGSCollectSDK.VGSDateConfigurationProtocol {
+  public init(collector vgs: VGSCollectSDK.VGSCollect, fieldName: Swift.String, datePickerStartDate: VGSCollectSDK.VGSDate? = nil, datePickerEndDate: VGSCollectSDK.VGSDate? = nil)
+  override final public var type: VGSCollectSDK.FieldType {
+    get
+    set
+  }
+  final public var inputSource: VGSCollectSDK.VGSTextFieldInputSource
+  final public var inputDateFormat: VGSCollectSDK.VGSDateFormat?
+  final public var outputDateFormat: VGSCollectSDK.VGSDateFormat?
+  final public var serializers: [any VGSCollectSDK.VGSFormatSerializerProtocol]
+  final public var tokenizationParameters: VGSCollectSDK.VGSDateTokenizationParameters
+  @objc deinit
+}
+public enum VGSErrorType : Swift.Int {
+  case inputDataIsNotValid
+  case inputFileNotFound
+  case inputFileTypeIsNotSupported
+  case inputFileSizeExceedsTheLimit
+  case sourceNotAvailable
+  case unexpectedResponseType
+  case unexpectedResponseDataFormat
+  case invalidConfigurationURL
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers public class VGSError : Foundation.NSError {
+  final public let type: VGSCollectSDK.VGSErrorType!
+  @objc override dynamic public var code: Swift.Int {
+    @objc get
+  }
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public typealias VGSErrorInfoKey = Swift.String
+public let VGSCollectSDKErrorDomain: Swift.String
+public let VGSSDKErrorInputDataIsNotValid: Swift.String
+public let VGSSDKErrorInputDataRequired: Swift.String
+public let VGSSDKErrorInputDataRequiredValid: Swift.String
+public let VGSSDKErrorFileNotFound: Swift.String
+public let VGSSDKErrorFileTypeNotSupported: Swift.String
+public let VGSSDKErrorFileSizeExceedsTheLimit: Swift.String
+public let VGSSDKErrorSourceNotAvailable: Swift.String
+public let VGSSDKErrorUnexpectedResponseDataFormat: Swift.String
+public protocol VGSExpDateConfigurationProtocol {
+  var inputSource: VGSCollectSDK.VGSTextFieldInputSource { get set }
+  var inputDateFormat: VGSCollectSDK.VGSCardExpDateFormat? { get set }
+  var outputDateFormat: VGSCollectSDK.VGSCardExpDateFormat? { get set }
+}
+@_inheritsConvenienceInitializers final public class VGSExpDateConfiguration : VGSCollectSDK.VGSConfiguration, VGSCollectSDK.VGSExpDateConfigurationProtocol {
+  override final public var type: VGSCollectSDK.FieldType {
+    get
+    set
+  }
+  final public var inputSource: VGSCollectSDK.VGSTextFieldInputSource
+  final public var inputDateFormat: VGSCollectSDK.VGSCardExpDateFormat?
+  final public var outputDateFormat: VGSCollectSDK.VGSCardExpDateFormat?
+  final public var serializers: [any VGSCollectSDK.VGSFormatSerializerProtocol]
+  override public init(collector vgs: VGSCollectSDK.VGSCollect, fieldName: Swift.String)
+  @objc deinit
+}
+public struct VGSExpDateSeparateSerializer : VGSCollectSDK.VGSFormatSerializerProtocol {
+  public let monthFieldName: Swift.String
+  public let yearFieldName: Swift.String
+  public init(monthFieldName: Swift.String, yearFieldName: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class VGSExpDateTextField : VGSCollectSDK.VGSTextField {
+  public enum MonthFormat {
+    case shortSymbols
+    case longSymbols
+    case numbers
+    public static func == (a: VGSCollectSDK.VGSExpDateTextField.MonthFormat, b: VGSCollectSDK.VGSExpDateTextField.MonthFormat) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum YearFormat {
+    case short
+    case long
+    public static func == (a: VGSCollectSDK.VGSExpDateTextField.YearFormat, b: VGSCollectSDK.VGSExpDateTextField.YearFormat) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) final public var monthPickerFormat: VGSCollectSDK.VGSExpDateTextField.MonthFormat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var yearPickerFormat: VGSCollectSDK.VGSExpDateTextField.YearFormat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) override final public var configuration: VGSCollectSDK.VGSConfiguration? {
+    get
+    set
+  }
+  @objc deinit
+}
+extension VGSCollectSDK.VGSExpDateTextField : UIKit.UIPickerViewDelegate, UIKit.UIPickerViewDataSource {
+  @_Concurrency.MainActor(unsafe) @objc final public func numberOfComponents(in pickerView: UIKit.UIPickerView) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func pickerView(_ pickerView: UIKit.UIPickerView, numberOfRowsInComponent component: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor(unsafe) @objc final public func pickerView(_ pickerView: UIKit.UIPickerView, titleForRow row: Swift.Int, forComponent component: Swift.Int) -> Swift.String?
+  @_Concurrency.MainActor(unsafe) @objc final public func pickerView(_ pickerView: UIKit.UIPickerView, didSelectRow row: Swift.Int, inComponent component: Swift.Int)
+}
+@available(iOS 14.0, *)
+public struct VGSExpDateTextFieldRepresentable : SwiftUI.UIViewRepresentable {
+  public var onEditingStart: (() -> Swift.Void)?
+  public var onCharacterChange: (() -> Swift.Void)?
+  public var onEditingEnd: (() -> Swift.Void)?
+  public var onStateChange: ((VGSCollectSDK.VGSTextFieldState) -> Swift.Void)?
+  public init(configuration: VGSCollectSDK.VGSConfiguration)
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: VGSCollectSDK.VGSExpDateTextFieldRepresentable.Context) -> VGSCollectSDK.VGSExpDateTextField
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: VGSCollectSDK.VGSExpDateTextField, context: VGSCollectSDK.VGSExpDateTextFieldRepresentable.Context)
+  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> VGSCollectSDK.VGSExpDateTextFieldRepresentable.Coordinator
+  public func font(_ font: UIKit.UIFont) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func placeholder(_ text: Swift.String) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func attributedPlaceholder(_ text: Foundation.NSAttributedString?) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func autocapitalizationType(_ type: UIKit.UITextAutocapitalizationType) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func spellCheckingType(_ type: UIKit.UITextSpellCheckingType) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func textFieldPadding(_ insets: UIKit.UIEdgeInsets) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func textAlignment(_ alignment: UIKit.NSTextAlignment) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func setSecureTextEntry(_ secure: Swift.Bool) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func adjustsFontForContentSizeCategory(_ adjusts: Swift.Bool) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func keyboardAccessoryView(_ view: UIKit.UIView?) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func textFieldAccessibilityLabel(_ label: Swift.String) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func border(color: UIKit.UIColor, lineWidth: CoreFoundation.CGFloat) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func monthPickerFormat(_ format: VGSCollectSDK.VGSExpDateTextField.MonthFormat) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func yearPickerFormat(_ format: VGSCollectSDK.VGSExpDateTextField.YearFormat) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func onEditingStart(_ action: (() -> Swift.Void)?) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func onCharacterChange(_ action: (() -> Swift.Void)?) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func onEditingEnd(_ action: (() -> Swift.Void)?) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  public func onStateChange(_ action: ((VGSCollectSDK.VGSTextFieldState) -> Swift.Void)?) -> VGSCollectSDK.VGSExpDateTextFieldRepresentable
+  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, VGSCollectSDK.VGSTextFieldDelegate {
+    @objc public func vgsTextFieldDidBeginEditing(_ textField: VGSCollectSDK.VGSTextField)
+    @objc public func vgsTextFieldDidChange(_ textField: VGSCollectSDK.VGSTextField)
+    @objc public func vgsTextFieldDidEndEditing(_ textField: VGSCollectSDK.VGSTextField)
+    @objc public func vgsTextFieldDidEndEditingOnReturn(_ textField: VGSCollectSDK.VGSTextField)
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewType = VGSCollectSDK.VGSExpDateTextField
+}
+public struct VGSExpDateTokenizationParameters : VGSCollectSDK.VGSTokenizationParametersProtocol {
+  public let storage: Swift.String
+  public var format: Swift.String
+}
+@_inheritsConvenienceInitializers final public class VGSExpDateTokenizationConfiguration : VGSCollectSDK.VGSConfiguration, VGSCollectSDK.VGSExpDateConfigurationProtocol {
+  override final public var type: VGSCollectSDK.FieldType {
+    get
+    set
+  }
+  final public var inputSource: VGSCollectSDK.VGSTextFieldInputSource
+  final public var inputDateFormat: VGSCollectSDK.VGSCardExpDateFormat?
+  final public var outputDateFormat: VGSCollectSDK.VGSCardExpDateFormat?
+  final public var tokenizationParameters: VGSCollectSDK.VGSExpDateTokenizationParameters
+  final public var serializers: [any VGSCollectSDK.VGSFormatSerializerProtocol]
+  override public init(collector vgs: VGSCollectSDK.VGSCollect, fieldName: Swift.String)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class VGSFileInfo : ObjectiveC.NSObject {
+  @objc final public let fileExtension: Swift.String?
+  @objc final public let size: Swift.Int
+  @objc final public let sizeUnits: Swift.String?
+  @objc deinit
+}
+public class VGSFilePickerConfiguration {
+  final public let fieldName: Swift.String
+  public init(collector vgs: VGSCollectSDK.VGSCollect, fieldName: Swift.String, fileSource: VGSCollectSDK.VGSFileSource)
+  @objc deinit
+}
+public class VGSFilePickerController {
+  weak public var delegate: (any VGSCollectSDK.VGSFilePickerControllerDelegate)? {
+    get
+    set
+  }
+  required public init(configuration: VGSCollectSDK.VGSFilePickerConfiguration)
+  public func presentFilePicker(on viewController: UIKit.UIViewController, animated: Swift.Bool, completion: (() -> Swift.Void)? = nil)
+  public func dismissFilePicker(animated: Swift.Bool, completion: (() -> Swift.Void)? = nil)
+  @objc deinit
+}
+@objc public protocol VGSFilePickerControllerDelegate {
+  @objc func userDidPickFileWithInfo(_ info: VGSCollectSDK.VGSFileInfo)
+  @objc func userDidSCancelFilePicking()
+  @objc func filePickingFailedWithError(_ error: VGSCollectSDK.VGSError)
+}
+public enum VGSFileSource : Swift.Int, Swift.CaseIterable {
+  case photoLibrary
+  case camera
+  case documentsDirectory
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [VGSCollectSDK.VGSFileSource]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [VGSCollectSDK.VGSFileSource] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct VGSFormAnanlyticsDetails {
+  public let formId: Swift.String
+  public let tenantId: Swift.String
+  public let environment: Swift.String
+  public var isSatelliteMode: Swift.Bool {
+    get
+  }
+  public init(formId: Swift.String, tenantId: Swift.String, environment: Swift.String, isSatelliteMode: Swift.Bool = false)
+}
+public protocol VGSFormatSerializerProtocol {
+}
+public protocol VGSPaymentCardModelProtocol {
+  var brand: VGSCollectSDK.VGSPaymentCards.CardBrand { get }
+  var name: Swift.String { get set }
+  var regex: Swift.String { get set }
+  var formatPattern: Swift.String { get set }
+  var cardNumberLengths: [Swift.Int] { get set }
+  var cvcLengths: [Swift.Int] { get set }
+  var checkSumAlgorithm: VGSCollectSDK.CheckSumAlgorithmType? { get set }
+  var brandIcon: UIKit.UIImage? { get set }
+  var cvcIcon: UIKit.UIImage? { get set }
+}
+public struct VGSPaymentCardModel : VGSCollectSDK.VGSPaymentCardModelProtocol {
+  public let brand: VGSCollectSDK.VGSPaymentCards.CardBrand
+  public var name: Swift.String
+  public var regex: Swift.String
+  public var cardNumberLengths: [Swift.Int]
+  public var cvcLengths: [Swift.Int]
+  public var checkSumAlgorithm: VGSCollectSDK.CheckSumAlgorithmType?
+  public var formatPattern: Swift.String
+  public var brandIcon: UIKit.UIImage?
+  public var cvcIcon: UIKit.UIImage?
+}
+@_hasMissingDesignatedInitializers public class VGSPaymentCards {
+  public enum CardBrand : Swift.Equatable {
+    case elo
+    case visaElectron
+    case maestro
+    case forbrugsforeningen
+    case dankort
+    case visa
+    case mastercard
+    case amex
+    case hipercard
+    case dinersClub
+    case discover
+    case unionpay
+    case jcb
+    case unknown
+    case custom(brandName: Swift.String)
+  }
+  public static var elo: VGSCollectSDK.VGSPaymentCardModel
+  public static var visaElectron: VGSCollectSDK.VGSPaymentCardModel
+  public static var maestro: VGSCollectSDK.VGSPaymentCardModel
+  public static var forbrugsforeningen: VGSCollectSDK.VGSPaymentCardModel
+  public static var dankort: VGSCollectSDK.VGSPaymentCardModel
+  public static var visa: VGSCollectSDK.VGSPaymentCardModel
+  public static var masterCard: VGSCollectSDK.VGSPaymentCardModel
+  public static var amex: VGSCollectSDK.VGSPaymentCardModel
+  public static var hipercard: VGSCollectSDK.VGSPaymentCardModel
+  public static var dinersClub: VGSCollectSDK.VGSPaymentCardModel
+  public static var discover: VGSCollectSDK.VGSPaymentCardModel
+  public static var unionpay: VGSCollectSDK.VGSPaymentCardModel
+  public static var jcb: VGSCollectSDK.VGSPaymentCardModel
+  public static var unknown: VGSCollectSDK.VGSUnknownPaymentCardModel
+  public static var cutomPaymentCardModels: [VGSCollectSDK.VGSCustomPaymentCardModel]
+  public static var validCardBrands: [any VGSCollectSDK.VGSPaymentCardModelProtocol]?
+  @objc deinit
+}
+extension VGSCollectSDK.VGSPaymentCards.CardBrand {
+  public var stringValue: Swift.String {
+    get
+  }
+  public var cardLengths: [Swift.Int] {
+    get
+  }
+  public static func == (lhs: VGSCollectSDK.VGSPaymentCards.CardBrand, rhs: VGSCollectSDK.VGSPaymentCards.CardBrand) -> Swift.Bool
+}
+extension VGSCollectSDK.VGSPaymentCards {
+  public static func getCardModelFromAvailableModels(brand: VGSCollectSDK.VGSPaymentCards.CardBrand) -> (any VGSCollectSDK.VGSPaymentCardModelProtocol)?
+  public static func detectCardBrandFromAvailableCards(input: Swift.String) -> VGSCollectSDK.VGSPaymentCards.CardBrand
+}
+@frozen public enum VGSResponse {
+  case success(_: Swift.Int, _: Foundation.Data?, _: Foundation.URLResponse?)
+  case failure(_: Swift.Int, _: Foundation.Data?, _: Foundation.URLResponse?, _: (any Swift.Error)?)
+}
+@frozen public enum VGSTokenizationResponse {
+  case success(_: Swift.Int, _: VGSCollectSDK.JsonData?, _: Foundation.URLResponse?)
+  case failure(_: Swift.Int, _: Foundation.Data?, _: Foundation.URLResponse?, _: (any Swift.Error)?)
+}
+public struct VGSSSNTokenizationParameters : VGSCollectSDK.VGSTokenizationParametersProtocol {
+  public let storage: Swift.String
+  public var format: Swift.String
+}
+@_inheritsConvenienceInitializers public class VGSSSNTokenizationConfiguration : VGSCollectSDK.VGSConfiguration {
+  public var tokenizationParameters: VGSCollectSDK.VGSSSNTokenizationParameters
+  override public var type: VGSCollectSDK.FieldType {
+    get
+    set
+  }
+  override public init(collector vgs: VGSCollectSDK.VGSCollect, fieldName: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class VGSTextField : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var placeholder: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var autocapitalizationType: UIKit.UITextAutocapitalizationType {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var spellCheckingType: UIKit.UITextSpellCheckingType {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var attributedPlaceholder: Foundation.NSAttributedString? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) public var padding: UIKit.UIEdgeInsets {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var textAlignment: UIKit.NSTextAlignment {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var clearButtonMode: UIKit.UITextField.ViewMode {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var isSecureTextEntry: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var adjustsFontForContentSizeCategory: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var keyboardAccessoryView: UIKit.UIView? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var autocorrectionType: UIKit.UITextAutocorrectionType {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var textFieldAccessibilityLabel: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var textFieldAccessibilityHint: Swift.String? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var textFieldIsAccessibilityElement: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var configuration: VGSCollectSDK.VGSConfiguration? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) weak public var delegate: (any VGSCollectSDK.VGSTextFieldDelegate)?
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) public func setDefaultText(_ text: Swift.String?)
+  @_Concurrency.MainActor(unsafe) public func setText(_ text: Swift.String?)
+  @_Concurrency.MainActor(unsafe) public func cleanText()
+  @_Concurrency.MainActor(unsafe) public func isContentEqual(_ textField: VGSCollectSDK.VGSTextField) -> Swift.Bool
+}
+extension VGSCollectSDK.VGSTextField {
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func becomeFirstResponder() -> Swift.Bool
+  @discardableResult
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func resignFirstResponder() -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var isFirstResponder: Swift.Bool {
+    @objc get
+  }
+}
+extension VGSCollectSDK.VGSTextField : UIKit.UITextFieldDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidBeginEditing(_ textField: UIKit.UITextField)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textFieldDidEndEditing(_ textField: UIKit.UITextField)
+}
+extension VGSCollectSDK.VGSTextField {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var isFocused: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) public var state: VGSCollectSDK.VGSTextFieldState {
+    get
+  }
+}
+@available(iOS 13, *)
+extension VGSCollectSDK.VGSTextField {
+  @_Concurrency.MainActor(unsafe) public var statePublisher: VGSCollectSDK.VGSTextFieldStatePublisher {
+    get
+  }
+}
+@available(iOS 13, *)
+public struct VGSTextFieldStatePublisher : Combine.Publisher {
+  public typealias Output = VGSCollectSDK.VGSTextFieldState
+  public typealias Failure = Swift.Never
+  public func receive<S>(subscriber: S) where S : Combine.Subscriber, S.Failure == Swift.Never, S.Input == VGSCollectSDK.VGSTextFieldState
+}
+extension VGSCollectSDK.VGSTextField {
+  @_Concurrency.MainActor(unsafe) public var font: UIKit.UIFont? {
+    get
+    set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var textColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var cornerRadius: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var borderWidth: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic public var borderColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func prepareForInterfaceBuilder()
+}
+@objc public protocol VGSTextFieldDelegate {
+  @objc optional func vgsTextFieldDidBeginEditing(_ textField: VGSCollectSDK.VGSTextField)
+  @objc optional func vgsTextFieldDidEndEditing(_ textField: VGSCollectSDK.VGSTextField)
+  @objc optional func vgsTextFieldDidEndEditingOnReturn(_ textField: VGSCollectSDK.VGSTextField)
+  @objc optional func vgsTextFieldDidChange(_ textField: VGSCollectSDK.VGSTextField)
+}
+@available(iOS 14.0, *)
+public struct VGSTextFieldRepresentable : SwiftUI.UIViewRepresentable {
+  public var onEditingStart: (() -> Swift.Void)?
+  public var onCharacterChange: (() -> Swift.Void)?
+  public var onEditingEnd: (() -> Swift.Void)?
+  public var onStateChange: ((VGSCollectSDK.VGSTextFieldState) -> Swift.Void)?
+  public init(configuration: VGSCollectSDK.VGSConfiguration)
+  @_Concurrency.MainActor(unsafe) public func makeUIView(context: VGSCollectSDK.VGSTextFieldRepresentable.Context) -> VGSCollectSDK.VGSTextField
+  @_Concurrency.MainActor(unsafe) public func updateUIView(_ uiView: VGSCollectSDK.VGSTextField, context: VGSCollectSDK.VGSTextFieldRepresentable.Context)
+  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> VGSCollectSDK.VGSTextFieldRepresentable.Coordinator
+  public func font(_ font: UIKit.UIFont) -> VGSCollectSDK.VGSTextFieldRepresentable
+  public func placeholder(_ text: Swift.String) -> VGSCollectSDK.VGSTextFieldRepresentable
+  public func attributedPlaceholder(_ text: Foundation.NSAttributedString?) -> VGSCollectSDK.VGSTextFieldRepresentable
+  public func autocapitalizationType(_ type: UIKit.UITextAutocapitalizationType) -> VGSCollectSDK.VGSTextFieldRepresentable
+  public func spellCheckingType(_ type: UIKit.UITextSpellCheckingType) -> VGSCollectSDK.VGSTextFieldRepresentable
+  public func textFieldPadding(_ insets: UIKit.UIEdgeInsets) -> VGSCollectSDK.VGSTextFieldRepresentable
+  public func textAlignment(_ alignment: UIKit.NSTextAlignment) -> VGSCollectSDK.VGSTextFieldRepresentable
+  public func setSecureTextEntry(_ secure: Swift.Bool) -> VGSCollectSDK.VGSTextFieldRepresentable
+  public func adjustsFontForContentSizeCategory(_ adjusts: Swift.Bool) -> VGSCollectSDK.VGSTextFieldRepresentable
+  public func keyboardAccessoryView(_ view: UIKit.UIView?) -> VGSCollectSDK.VGSTextFieldRepresentable
+  public func textFieldAccessibilityLabel(_ label: Swift.String) -> VGSCollectSDK.VGSTextFieldRepresentable
+  public func border(color: UIKit.UIColor, lineWidth: CoreFoundation.CGFloat) -> VGSCollectSDK.VGSTextFieldRepresentable
+  public func onEditingStart(_ action: (() -> Swift.Void)?) -> VGSCollectSDK.VGSTextFieldRepresentable
+  public func onCharacterChange(_ action: (() -> Swift.Void)?) -> VGSCollectSDK.VGSTextFieldRepresentable
+  public func onEditingEnd(_ action: (() -> Swift.Void)?) -> VGSCollectSDK.VGSTextFieldRepresentable
+  public func onStateChange(_ action: ((VGSCollectSDK.VGSTextFieldState) -> Swift.Void)?) -> VGSCollectSDK.VGSTextFieldRepresentable
+  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, VGSCollectSDK.VGSTextFieldDelegate {
+    @objc public func vgsTextFieldDidBeginEditing(_ textField: VGSCollectSDK.VGSTextField)
+    @objc public func vgsTextFieldDidChange(_ textField: VGSCollectSDK.VGSTextField)
+    @objc public func vgsTextFieldDidEndEditing(_ textField: VGSCollectSDK.VGSTextField)
+    @objc public func vgsTextFieldDidEndEditingOnReturn(_ textField: VGSCollectSDK.VGSTextField)
+    @objc deinit
+  }
+  public typealias Body = Swift.Never
+  public typealias UIViewType = VGSCollectSDK.VGSTextField
+}
+public enum VGSVaultStorageType : Swift.String {
+  case PERSISTENT
+  case VOLATILE
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum VGSVaultAliasFormat : Swift.String {
+  case FPE_ACC_NUM_T_FOUR
+  case FPE_ALPHANUMERIC_ACC_NUM_T_FOUR
+  case FPE_SIX_T_FOUR
+  case FPE_SSN_T_FOUR
+  case FPE_T_FOUR
+  case NUM_LENGTH_PRESERVING
+  case PFPT
+  case RAW_UUID
+  case UUID
+  case GENERIC_T_FOUR
+  case ALPHANUMERIC_SIX_T_FOUR
+  case ALPHANUMERIC_LENGTH_PRESERVING
+  case ALPHANUMERIC_LENGTH_PRESERVING_T_FOUR
+  case ALPHANUMERIC_SSN_T_FOUR
+  case ALPHANUMERIC_LENGTH_PRESERVING_SIX_T_FOUR
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol VGSTokenizationParametersProtocol {
+  var format: Swift.String { get }
+  var storage: Swift.String { get }
+}
+public struct VGSTokenizationParameters : VGSCollectSDK.VGSTokenizationParametersProtocol {
+  public var storage: Swift.String
+  public var format: Swift.String
+}
+@_inheritsConvenienceInitializers public class VGSTokenizationConfiguration : VGSCollectSDK.VGSConfiguration {
+  public var tokenizationParameters: VGSCollectSDK.VGSTokenizationParameters
+  override public init(collector vgs: VGSCollectSDK.VGSCollect, fieldName: Swift.String)
+  @objc deinit
+}
+public struct VGSUnknownPaymentCardModel {
+  public let regex: Swift.String
+  public var cardNumberLengths: [Swift.Int]
+  public var cvcLengths: [Swift.Int]
+  public var checkSumAlgorithm: VGSCollectSDK.CheckSumAlgorithmType?
+  public var formatPattern: Swift.String
+  public var brandIcon: UIKit.UIImage?
+  public var cvcIcon: UIKit.UIImage?
+}
+public typealias VGSValidationError = Swift.String
+public enum VGSValidationErrorType : Swift.String {
+  case pattern
+  case length
+  case lengthMathes
+  case expDate
+  case date
+  case cardNumber
+  case luhnCheck
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol VGSValidationRuleProtocol {
+  var error: VGSCollectSDK.VGSValidationError { get }
+}
+public struct VGSValidationRuleSet {
+  public init()
+  public init(rules: [any VGSCollectSDK.VGSValidationRuleProtocol])
+  public mutating func add(rule: any VGSCollectSDK.VGSValidationRuleProtocol)
+}
+public struct VGSValidationRuleDateRange : VGSCollectSDK.VGSValidationRuleProtocol {
+  public let dateFormat: VGSCollectSDK.VGSDateFormat
+  public let error: VGSCollectSDK.VGSValidationError
+  public init(dateFormat: VGSCollectSDK.VGSDateFormat = VGSDateFormat.default, error: VGSCollectSDK.VGSValidationError, start: VGSCollectSDK.VGSDate? = nil, end: VGSCollectSDK.VGSDate? = nil)
+}
+public enum VGSCardExpDateFormat {
+  case shortYear
+  case longYear
+  case shortYearThenMonth
+  case longYearThenMonth
+  public static func == (a: VGSCollectSDK.VGSCardExpDateFormat, b: VGSCollectSDK.VGSCardExpDateFormat) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct VGSValidationRuleCardExpirationDate : VGSCollectSDK.VGSValidationRuleProtocol {
+  public let dateFormat: VGSCollectSDK.VGSCardExpDateFormat
+  public let error: VGSCollectSDK.VGSValidationError
+  public init(dateFormat: VGSCollectSDK.VGSCardExpDateFormat = .shortYear, error: VGSCollectSDK.VGSValidationError)
+}
+public struct VGSValidationRuleLength : VGSCollectSDK.VGSValidationRuleProtocol {
+  public let min: Swift.Int
+  public let max: Swift.Int
+  public let error: VGSCollectSDK.VGSValidationError
+  public init(min: Swift.Int = 0, max: Swift.Int = Int.max, error: VGSCollectSDK.VGSValidationError)
+}
+public struct VGSValidationRuleLengthMatch : VGSCollectSDK.VGSValidationRuleProtocol {
+  public let lengths: [Swift.Int]
+  public let error: VGSCollectSDK.VGSValidationError
+  public init(lengths: [Swift.Int], error: VGSCollectSDK.VGSValidationError)
+}
+public struct VGSValidationRuleLuhnCheck : VGSCollectSDK.VGSValidationRuleProtocol {
+  public var error: VGSCollectSDK.VGSValidationError
+  public init(error: VGSCollectSDK.VGSValidationError)
+}
+public struct VGSValidationRulePattern : VGSCollectSDK.VGSValidationRuleProtocol {
+  public let pattern: Swift.String
+  public let error: VGSCollectSDK.VGSValidationError
+  public init(pattern: Swift.String, error: VGSCollectSDK.VGSValidationError)
+}
+public struct VGSValidationRulePaymentCard : VGSCollectSDK.VGSValidationRuleProtocol {
+  public var error: VGSCollectSDK.VGSValidationError
+  public var validateUnknownCardBrand: Swift.Bool
+  public init(error: VGSCollectSDK.VGSValidationError)
+  public init(error: VGSCollectSDK.VGSValidationError, validateUnknownCardBrand: Swift.Bool)
+}
+extension VGSCollectSDK.CheckSumAlgorithmType : Swift.Equatable {}
+extension VGSCollectSDK.CheckSumAlgorithmType : Swift.Hashable {}
+extension VGSCollectSDK.Environment : Swift.Equatable {}
+extension VGSCollectSDK.Environment : Swift.Hashable {}
+extension VGSCollectSDK.Environment : Swift.RawRepresentable {}
+extension VGSCollectSDK.FieldType : Swift.Equatable {}
+extension VGSCollectSDK.FieldType : Swift.Hashable {}
+extension VGSCollectSDK.FieldType : Swift.RawRepresentable {}
+extension VGSCollectSDK.VGSTextFieldInputSource : Swift.Equatable {}
+extension VGSCollectSDK.VGSTextFieldInputSource : Swift.Hashable {}
+extension VGSCollectSDK.VGSAnalyticsEventType : Swift.Equatable {}
+extension VGSCollectSDK.VGSAnalyticsEventType : Swift.Hashable {}
+extension VGSCollectSDK.VGSAnalyticsEventType : Swift.RawRepresentable {}
+extension VGSCollectSDK.VGSAnalyticsClient.AnalyticEventStatus : Swift.Equatable {}
+extension VGSCollectSDK.VGSAnalyticsClient.AnalyticEventStatus : Swift.Hashable {}
+extension VGSCollectSDK.VGSAnalyticsClient.AnalyticEventStatus : Swift.RawRepresentable {}
+extension VGSCollectSDK.VGSCardTextField.CardIconLocation : Swift.Equatable {}
+extension VGSCollectSDK.VGSCardTextField.CardIconLocation : Swift.Hashable {}
+extension VGSCollectSDK.VGSCollectFieldNameMappingPolicy : Swift.Equatable {}
+extension VGSCollectSDK.VGSCollectFieldNameMappingPolicy : Swift.Hashable {}
+extension VGSCollectSDK.VGSCollectHTTPMethod : Swift.Equatable {}
+extension VGSCollectSDK.VGSCollectHTTPMethod : Swift.Hashable {}
+extension VGSCollectSDK.VGSCollectHTTPMethod : Swift.RawRepresentable {}
+extension VGSCollectSDK.VGSLogLevel : Swift.Equatable {}
+extension VGSCollectSDK.VGSLogLevel : Swift.Hashable {}
+extension VGSCollectSDK.VGSLogLevel : Swift.RawRepresentable {}
+extension VGSCollectSDK.VGSCVCTextField.CVCIconLocation : Swift.Equatable {}
+extension VGSCollectSDK.VGSCVCTextField.CVCIconLocation : Swift.Hashable {}
+extension VGSCollectSDK.VGSDateFormat : Swift.Equatable {}
+extension VGSCollectSDK.VGSDateFormat : Swift.Hashable {}
+extension VGSCollectSDK.VGSDateTextField.MonthFormat : Swift.Equatable {}
+extension VGSCollectSDK.VGSDateTextField.MonthFormat : Swift.Hashable {}
+extension VGSCollectSDK.VGSErrorType : Swift.Equatable {}
+extension VGSCollectSDK.VGSErrorType : Swift.Hashable {}
+extension VGSCollectSDK.VGSErrorType : Swift.RawRepresentable {}
+extension VGSCollectSDK.VGSExpDateTextField.MonthFormat : Swift.Equatable {}
+extension VGSCollectSDK.VGSExpDateTextField.MonthFormat : Swift.Hashable {}
+extension VGSCollectSDK.VGSExpDateTextField.YearFormat : Swift.Equatable {}
+extension VGSCollectSDK.VGSExpDateTextField.YearFormat : Swift.Hashable {}
+extension VGSCollectSDK.VGSFileSource : Swift.Equatable {}
+extension VGSCollectSDK.VGSFileSource : Swift.Hashable {}
+extension VGSCollectSDK.VGSFileSource : Swift.RawRepresentable {}
+extension VGSCollectSDK.VGSResponse : Swift.Sendable {}
+extension VGSCollectSDK.VGSVaultStorageType : Swift.Equatable {}
+extension VGSCollectSDK.VGSVaultStorageType : Swift.Hashable {}
+extension VGSCollectSDK.VGSVaultStorageType : Swift.RawRepresentable {}
+extension VGSCollectSDK.VGSVaultAliasFormat : Swift.Equatable {}
+extension VGSCollectSDK.VGSVaultAliasFormat : Swift.Hashable {}
+extension VGSCollectSDK.VGSVaultAliasFormat : Swift.RawRepresentable {}
+extension VGSCollectSDK.VGSValidationErrorType : Swift.Equatable {}
+extension VGSCollectSDK.VGSValidationErrorType : Swift.Hashable {}
+extension VGSCollectSDK.VGSValidationErrorType : Swift.RawRepresentable {}
+extension VGSCollectSDK.VGSCardExpDateFormat : Swift.Equatable {}
+extension VGSCollectSDK.VGSCardExpDateFormat : Swift.Hashable {}

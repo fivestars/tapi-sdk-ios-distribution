@@ -1,0 +1,11 @@
+framework module AnyCodableKit {
+  umbrella header "AnyCodableKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AnyCodableKit.Swift {
+  header "AnyCodableKit-Swift.h"
+  requires objc
+}
