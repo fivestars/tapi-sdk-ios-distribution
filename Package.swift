@@ -11,22 +11,25 @@ let package = Package(
     products: [
         .library(name: "TapiSDK", targets: ["TapiSDKTarget"]),
     ], 
-    dependencies: [
-        .package(url: "https://github.com/Flight-School/AnyCodable", exact: "0.6.7"),
-        .package(url: "https://github.com/verygoodsecurity/vgs-collect-ios", exact: "1.15.2"),
-    ],
+    dependencies: [],
     targets: [
         .target(
-            name: "TapiSDKTarget",         // <--- new wrapper
+            name: "TapiSDKTarget",
             dependencies: [
-                .product(name: "AnyCodable", package: "anycodable"),
-                .product(name: "VGSCollectSDK", package: "vgs-collect-ios"),
-                .target(name: "TapiSDK")    // <-- reference the actual binary target here
+                .target(name: "VGSCollectSDK"),
+                .target(name: "AnyCodableKit"),
+                .target(name: "TapiSDK")
             ],
             publicHeadersPath: ""
         ),
         .binaryTarget(
             name: "TapiSDK",
-            path: "TapiSDK.xcframework")
+            path: "TapiSDK.xcframework"),
+        .binaryTarget(
+            name: "VGSCollectSDK",
+            path: "VGSCollectSDK.xcframework"),
+        .binaryTarget(
+            name: "AnyCodableKit", 
+            path: "AnyCodableKit.xcframework")
     ]
 )
