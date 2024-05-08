@@ -5154,8 +5154,8 @@
       },
       {
         "kind": "Import",
-        "name": "AnyCodable",
-        "printedName": "AnyCodable",
+        "name": "AnyCodableKit",
+        "printedName": "AnyCodableKit",
         "declKind": "Import",
         "moduleName": "TapiSDK",
         "declAttributes": [
@@ -5443,12 +5443,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String : AnyCodable.AnyCodable]?",
+                "printedName": "[Swift.String : AnyCodableKit.AnyCodable]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Dictionary",
-                    "printedName": "[Swift.String : AnyCodable.AnyCodable]",
+                    "printedName": "[Swift.String : AnyCodableKit.AnyCodable]",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -5459,8 +5459,8 @@
                       {
                         "kind": "TypeNominal",
                         "name": "AnyCodable",
-                        "printedName": "AnyCodable.AnyCodable",
-                        "usr": "s:10AnyCodableAAV"
+                        "printedName": "AnyCodableKit.AnyCodable",
+                        "usr": "s:13AnyCodableKit0aB0V"
                       }
                     ],
                     "usr": "s:SD"
@@ -5470,8 +5470,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:7TapiSDK8DiscountV15partnerMetadataSDySS10AnyCodableAEVGSgvp",
-            "mangledName": "$s7TapiSDK8DiscountV15partnerMetadataSDySS10AnyCodableAEVGSgvp",
+            "usr": "s:7TapiSDK8DiscountV15partnerMetadataSDySS13AnyCodableKit0fG0VGSgvp",
+            "mangledName": "$s7TapiSDK8DiscountV15partnerMetadataSDySS13AnyCodableKit0fG0VGSgvp",
             "moduleName": "TapiSDK",
             "declAttributes": [
               "HasStorage",
@@ -5488,12 +5488,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[Swift.String : AnyCodable.AnyCodable]?",
+                    "printedName": "[Swift.String : AnyCodableKit.AnyCodable]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Dictionary",
-                        "printedName": "[Swift.String : AnyCodable.AnyCodable]",
+                        "printedName": "[Swift.String : AnyCodableKit.AnyCodable]",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -5504,8 +5504,8 @@
                           {
                             "kind": "TypeNominal",
                             "name": "AnyCodable",
-                            "printedName": "AnyCodable.AnyCodable",
-                            "usr": "s:10AnyCodableAAV"
+                            "printedName": "AnyCodableKit.AnyCodable",
+                            "usr": "s:13AnyCodableKit0aB0V"
                           }
                         ],
                         "usr": "s:SD"
@@ -5515,8 +5515,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7TapiSDK8DiscountV15partnerMetadataSDySS10AnyCodableAEVGSgvg",
-                "mangledName": "$s7TapiSDK8DiscountV15partnerMetadataSDySS10AnyCodableAEVGSgvg",
+                "usr": "s:7TapiSDK8DiscountV15partnerMetadataSDySS13AnyCodableKit0fG0VGSgvg",
+                "mangledName": "$s7TapiSDK8DiscountV15partnerMetadataSDySS13AnyCodableKit0fG0VGSgvg",
                 "moduleName": "TapiSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -15078,14 +15078,14 @@
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Discount.swift",
       "kind": "StringLiteral",
-      "offset": 631,
+      "offset": 634,
       "length": 18,
       "value": "\"partner_metadata\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Discount.swift",
       "kind": "StringLiteral",
-      "offset": 631,
+      "offset": 634,
       "length": 18,
       "value": "\"partner_metadata\""
     },

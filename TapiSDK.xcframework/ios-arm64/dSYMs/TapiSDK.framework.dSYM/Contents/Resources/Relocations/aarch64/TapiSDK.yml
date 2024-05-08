@@ -968,11 +968,11 @@ relocations:
   - { offsetInCU: 0x3FC, offset: 0x617F9, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountVSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0xB94, symBinAddr: 0x1C6FC, symSize: 0x4 }
   - { offsetInCU: 0x41C, offset: 0x61819, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountVSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0xB94, symBinAddr: 0x1C6FC, symSize: 0x4 }
   - { offsetInCU: 0x42D, offset: 0x6182A, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV2eeoiySbAC_ACtFZTf4nnd_n', symObjAddr: 0x10F4, symBinAddr: 0x1CC5C, symSize: 0x1FC }
-  - { offsetInCU: 0x5B7, offset: 0x619B4, size: 0x8, addend: 0x0, symName: '_$sSDsSQR_rlE2eeoiySbSDyxq_G_ABtFZSS_10AnyCodableACVTgm5', symObjAddr: 0xB98, symBinAddr: 0x1C700, symSize: 0x2D0 }
+  - { offsetInCU: 0x5B7, offset: 0x619B4, size: 0x8, addend: 0x0, symName: '_$sSDsSQR_rlE2eeoiySbSDyxq_G_ABtFZSS_13AnyCodableKit0bC0VTgm5', symObjAddr: 0xB98, symBinAddr: 0x1C700, symSize: 0x2D0 }
   - { offsetInCU: 0x667, offset: 0x61A64, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV10CodingKeys33_789BF275554B26598A634ECF86085C77LLOAFs0D3KeyAAWl', symObjAddr: 0x1354, symBinAddr: 0x1CE58, symSize: 0x44 }
-  - { offsetInCU: 0x67B, offset: 0x61A78, size: 0x8, addend: 0x0, symName: '_$sSDySS10AnyCodableAAVGMa', symObjAddr: 0x1398, symBinAddr: 0x1CE9C, symSize: 0x64 }
-  - { offsetInCU: 0x68F, offset: 0x61A8C, size: 0x8, addend: 0x0, symName: '_$s10AnyCodableAAVABSEAAWl', symObjAddr: 0x13FC, symBinAddr: 0x1CF00, symSize: 0x44 }
-  - { offsetInCU: 0x6A3, offset: 0x61AA0, size: 0x8, addend: 0x0, symName: '_$s10AnyCodableAAVABSeAAWl', symObjAddr: 0x14D0, symBinAddr: 0x1CFB4, symSize: 0x44 }
+  - { offsetInCU: 0x67B, offset: 0x61A78, size: 0x8, addend: 0x0, symName: '_$sSDySS13AnyCodableKit0aB0VGMa', symObjAddr: 0x1398, symBinAddr: 0x1CE9C, symSize: 0x64 }
+  - { offsetInCU: 0x68F, offset: 0x61A8C, size: 0x8, addend: 0x0, symName: '_$s13AnyCodableKit0aB0VACSEAAWl', symObjAddr: 0x13FC, symBinAddr: 0x1CF00, symSize: 0x44 }
+  - { offsetInCU: 0x6A3, offset: 0x61AA0, size: 0x8, addend: 0x0, symName: '_$s13AnyCodableKit0aB0VACSeAAWl', symObjAddr: 0x14D0, symBinAddr: 0x1CFB4, symSize: 0x44 }
   - { offsetInCU: 0x6B7, offset: 0x61AB4, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountVs12IdentifiableAA2IDsADP_SHWT', symObjAddr: 0x1514, symBinAddr: 0x1CFF8, symSize: 0xC }
   - { offsetInCU: 0x6CB, offset: 0x61AC8, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountVSHAASQWb', symObjAddr: 0x1520, symBinAddr: 0x1D004, symSize: 0x4 }
   - { offsetInCU: 0x6DF, offset: 0x61ADC, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountVACSQAAWl', symObjAddr: 0x1524, symBinAddr: 0x1D008, symSize: 0x44 }
@@ -997,9 +997,9 @@ relocations:
   - { offsetInCU: 0x85B, offset: 0x61C58, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV10CodingKeys33_789BF275554B26598A634ECF86085C77LLOAFs28CustomDebugStringConvertibleAAWl', symObjAddr: 0x1A14, symBinAddr: 0x1D4E8, symSize: 0x44 }
   - { offsetInCU: 0x86F, offset: 0x61C6C, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV10CodingKeys33_789BF275554B26598A634ECF86085C77LLOs0D3KeyAAs23CustomStringConvertiblePWb', symObjAddr: 0x1A58, symBinAddr: 0x1D52C, symSize: 0x4 }
   - { offsetInCU: 0x883, offset: 0x61C80, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV10CodingKeys33_789BF275554B26598A634ECF86085C77LLOAFs23CustomStringConvertibleAAWl', symObjAddr: 0x1A5C, symBinAddr: 0x1D530, symSize: 0x44 }
-  - { offsetInCU: 0x897, offset: 0x61C94, size: 0x8, addend: 0x0, symName: '_$s10AnyCodableAAVWOc', symObjAddr: 0x1AA0, symBinAddr: 0x1D574, symSize: 0x3C }
-  - { offsetInCU: 0x8AB, offset: 0x61CA8, size: 0x8, addend: 0x0, symName: '_$sSS3key_10AnyCodableABV5valuetSgWOb', symObjAddr: 0x1ADC, symBinAddr: 0x1D5B0, symSize: 0x48 }
-  - { offsetInCU: 0x8BF, offset: 0x61CBC, size: 0x8, addend: 0x0, symName: '_$s10AnyCodableAAVWOh', symObjAddr: 0x1B24, symBinAddr: 0x1D5F8, symSize: 0x34 }
+  - { offsetInCU: 0x897, offset: 0x61C94, size: 0x8, addend: 0x0, symName: '_$s13AnyCodableKit0aB0VWOc', symObjAddr: 0x1AA0, symBinAddr: 0x1D574, symSize: 0x3C }
+  - { offsetInCU: 0x8AB, offset: 0x61CA8, size: 0x8, addend: 0x0, symName: '_$sSS3key_13AnyCodableKit0bC0V5valuetSgWOb', symObjAddr: 0x1ADC, symBinAddr: 0x1D5B0, symSize: 0x48 }
+  - { offsetInCU: 0x8BF, offset: 0x61CBC, size: 0x8, addend: 0x0, symName: '_$s13AnyCodableKit0aB0VWOh', symObjAddr: 0x1B24, symBinAddr: 0x1D5F8, symSize: 0x34 }
   - { offsetInCU: 0x8D3, offset: 0x61CD0, size: 0x8, addend: 0x0, symName: '_$sSD8IteratorV8_VariantOyxq___GSHRzr0_lWOe', symObjAddr: 0x1B58, symBinAddr: 0x1D62C, symSize: 0x8 }
   - { offsetInCU: 0x90D, offset: 0x61D0A, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV10CodingKeys33_789BF275554B26598A634ECF86085C77LLOSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0xA0, symBinAddr: 0x1BC08, symSize: 0xC }
   - { offsetInCU: 0x929, offset: 0x61D26, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV10CodingKeys33_789BF275554B26598A634ECF86085C77LLOSHAASH9hashValueSivgTW', symObjAddr: 0xAC, symBinAddr: 0x1BC14, symSize: 0x8 }
@@ -1012,14 +1012,14 @@ relocations:
   - { offsetInCU: 0xC16, offset: 0x62013, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV9pointCostSiSgvg', symObjAddr: 0x2C, symBinAddr: 0x1BB94, symSize: 0xC }
   - { offsetInCU: 0xC2A, offset: 0x62027, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV8selectedSbvg', symObjAddr: 0x38, symBinAddr: 0x1BBA0, symSize: 0x8 }
   - { offsetInCU: 0xC3E, offset: 0x6203B, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV4typeSSSgvg', symObjAddr: 0x40, symBinAddr: 0x1BBA8, symSize: 0x2C }
-  - { offsetInCU: 0xC52, offset: 0x6204F, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV15partnerMetadataSDySS10AnyCodableAEVGSgvg', symObjAddr: 0x6C, symBinAddr: 0x1BBD4, symSize: 0x8 }
+  - { offsetInCU: 0xC52, offset: 0x6204F, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV15partnerMetadataSDySS13AnyCodableKit0fG0VGSgvg', symObjAddr: 0x6C, symBinAddr: 0x1BBD4, symSize: 0x8 }
   - { offsetInCU: 0xC66, offset: 0x62063, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV2idSSvg', symObjAddr: 0x74, symBinAddr: 0x1BBDC, symSize: 0x2C }
   - { offsetInCU: 0xCEA, offset: 0x620E7, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV4hash4intoys6HasherVz_tF', symObjAddr: 0x2C0, symBinAddr: 0x1BE28, symSize: 0x16C }
   - { offsetInCU: 0xE7B, offset: 0x62278, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV2eeoiySbAC_ACtFZ', symObjAddr: 0x42C, symBinAddr: 0x1BF94, symSize: 0x4 }
   - { offsetInCU: 0xE8F, offset: 0x6228C, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV6encode2toys7Encoder_p_tKF', symObjAddr: 0x430, symBinAddr: 0x1BF98, symSize: 0x250 }
   - { offsetInCU: 0xEB9, offset: 0x622B6, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV9hashValueSivg', symObjAddr: 0x680, symBinAddr: 0x1C1E8, symSize: 0x74 }
   - { offsetInCU: 0xF2B, offset: 0x62328, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK8DiscountV4fromACs7Decoder_p_tKcfC', symObjAddr: 0x6F4, symBinAddr: 0x1C25C, symSize: 0x384 }
-  - { offsetInCU: 0xF96, offset: 0x62393, size: 0x8, addend: 0x0, symName: '_$sSDsSHR_rlE4hash4intoys6HasherVz_tFSS_10AnyCodableAEVTg5', symObjAddr: 0xE68, symBinAddr: 0x1C9D0, symSize: 0x230 }
+  - { offsetInCU: 0xF96, offset: 0x62393, size: 0x8, addend: 0x0, symName: '_$sSDsSHR_rlE4hash4intoys6HasherVz_tFSS_13AnyCodableKit0dE0VTg5', symObjAddr: 0xE68, symBinAddr: 0x1C9D0, symSize: 0x230 }
   - { offsetInCU: 0x2B, offset: 0x62464, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK16GetStateResponseVwCP', symObjAddr: 0x0, symBinAddr: 0x1D638, symSize: 0x30 }
   - { offsetInCU: 0x43, offset: 0x6247C, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK16GetStateResponseVwCP', symObjAddr: 0x0, symBinAddr: 0x1D638, symSize: 0x30 }
   - { offsetInCU: 0x57, offset: 0x62490, size: 0x8, addend: 0x0, symName: '_$s7TapiSDK16GetStateResponseVwxx', symObjAddr: 0x30, symBinAddr: 0x1D668, symSize: 0x5C }
