@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '13.0'
 
-  s.dependency 'AnyCodable-FlightSchool', '0.6.7'
+  s.dependency 'AnyCodableKit'
   s.dependency 'VGSCollectSDK', '1.16.1'
 
   s.vendored_frameworks = 'TapiSDK.xcframework'
