@@ -13,7 +13,7 @@ let package = Package(
     ], 
     dependencies: [
         .package(url: "https://github.com/Flight-School/AnyCodable", exact: "0.6.7"),
-        .package(url: "https://github.com/verygoodsecurity/vgs-collect-ios", exact: "1.15.2"),
+        .package(url: "https://github.com/verygoodsecurity/vgs-collect-ios", exact: "1.16.1"),
     ],
     targets: [
         .target(
