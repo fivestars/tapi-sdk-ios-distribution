@@ -188,7 +188,7 @@ public struct Discount : Swift.Codable, Swift.Identifiable, Swift.Hashable {
   }
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct InProgressOrder : Swift.Encodable {
+public struct InProgressOrder : Swift.Codable {
   public let total: Swift.Int
   public let tax: Swift.Int
   public let subtotal: Swift.Int
@@ -202,18 +202,21 @@ public struct InProgressOrder : Swift.Encodable {
   public let discounts: [TapiSDK.InProgressDiscount]
   public init(total: Swift.Int, tax: Swift.Int, subtotal: Swift.Int, posOrderID: Swift.String, currency: Swift.String, tip: Swift.Int, createdTime: Swift.Int, employee: TapiSDK.InProgressEmployee, customer: TapiSDK.InProgressCustomer? = nil, items: [TapiSDK.InProgressItem], discounts: [TapiSDK.InProgressDiscount])
   public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public struct InProgressEmployee : Swift.Encodable {
+public struct InProgressEmployee : Swift.Codable {
   public let id: Swift.String
   public init(id: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public struct InProgressCustomer : Swift.Encodable {
+public struct InProgressCustomer : Swift.Codable {
   public let uid: Swift.String
   public init(uid: Swift.String)
   public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public struct InProgressItem : Swift.Encodable {
+public struct InProgressItem : Swift.Codable {
   public let classUID: Swift.String?
   public let instanceUIDs: [Swift.String]
   public let description: Swift.String
@@ -231,8 +234,9 @@ public struct InProgressItem : Swift.Encodable {
   public let modifiers: [TapiSDK.InProgressModifier]
   public init(classUID: Swift.String? = nil, instanceUIDs: [Swift.String], description: Swift.String, quantity: Swift.Int, preTaxUnitPrice: Swift.Int, preTaxTotalPrice: Swift.Int, postTaxTotalPrice: Swift.Int, postTaxUnitPrice: Swift.Int, perUnitTax: Swift.Int, totalTax: Swift.Int, taxRate: Swift.Int, showPreTax: Swift.Bool, position: Swift.Int, discounts: [TapiSDK.InProgressDiscount], modifiers: [TapiSDK.InProgressModifier])
   public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public struct InProgressDiscount : Swift.Encodable {
+public struct InProgressDiscount : Swift.Codable {
   public let classUID: Swift.String?
   public let description: Swift.String
   public let instanceUID: Swift.String
@@ -241,8 +245,9 @@ public struct InProgressDiscount : Swift.Encodable {
   public let showPreTax: Swift.Bool
   public init(description: Swift.String, instanceUID: Swift.String, postTaxAmount: Swift.Int, preTaxAmount: Swift.Int, showPreTax: Swift.Bool, classUID: Swift.String? = nil)
   public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
-public struct InProgressModifier : Swift.Encodable {
+public struct InProgressModifier : Swift.Codable {
   public let id: Swift.String
   public let position: Swift.Int
   public let description: Swift.String
@@ -250,6 +255,7 @@ public struct InProgressModifier : Swift.Encodable {
   public let modifiers: [TapiSDK.InProgressModifier]
   public init(id: Swift.String, position: Swift.Int, description: Swift.String, amount: Swift.Int, modifiers: [TapiSDK.InProgressModifier])
   public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 public struct Order : Swift.Codable {
   public let currency: Swift.String
