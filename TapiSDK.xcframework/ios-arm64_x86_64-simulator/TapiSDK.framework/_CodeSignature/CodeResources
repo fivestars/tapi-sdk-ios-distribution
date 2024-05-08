@@ -18,11 +18,11 @@
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ixxgvbQr5i2cS218R0fcVvMAa7M=
+		xzimSCLT4I/oIf1NpEc/RmwvJ3c=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ExQnXRU2EA1kVd/sJBJ+1YkRpps=
+		r/s/0Nscf95fHm7AKILnvd8BhH8=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ExQnXRU2EA1kVd/sJBJ+1YkRpps=
+		r/s/0Nscf95fHm7AKILnvd8BhH8=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TAs2oWTt1A8DUQxssa+THVyZ/Uo=
+		KH0Zy4GLAUG8VQQxNOSeduukryk=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ixxgvbQr5i2cS218R0fcVvMAa7M=
+		xzimSCLT4I/oIf1NpEc/RmwvJ3c=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		leT6PZeA2w4W1zV9oNmpT2Fhesg=
+		qVORRSZehnfb8L6NDxH3lWPyLKI=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		leT6PZeA2w4W1zV9oNmpT2Fhesg=
+		qVORRSZehnfb8L6NDxH3lWPyLKI=
 		</data>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		N+tqZM8712jVJC1rFFXeUErM9Ww=
+		o310w9GTrnlccOFgatwjIFs8SnI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,14 +81,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+VOPjQkcxfHSKHv9dVslV4ISHg9JwPP9xMaHak5eehY=
+			ciKkB2DtYzWMJR0t/0M0NkNMOa8hpIp0ltgEawhrlgI=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			85KqAfGyYHvHOEYrRw1OelWS58/h29iYmayCtOQIYuU=
+			h+YE+UDM6r3FfC6BYkMrdUMPhuG/DiqJJakMa16xvz4=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -102,28 +102,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			85KqAfGyYHvHOEYrRw1OelWS58/h29iYmayCtOQIYuU=
+			h+YE+UDM6r3FfC6BYkMrdUMPhuG/DiqJJakMa16xvz4=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rRaFbZ4SVwu6QIBaKpftBaaa4nN/vjd4n2EQWirWZbc=
+			mFOOImNtR9hoJl1P31csCvZ1Yj2I3kOWeaV1EmstnTs=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+VOPjQkcxfHSKHv9dVslV4ISHg9JwPP9xMaHak5eehY=
+			ciKkB2DtYzWMJR0t/0M0NkNMOa8hpIp0ltgEawhrlgI=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4iRTTRTqCwJmDV6KoE4Icp3MKAK30ToUyEniLdXpvXg=
+			l1Da12QHEg2Za6vaJsDeisxjakIGOg2vapnYERCCrQc=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4iRTTRTqCwJmDV6KoE4Icp3MKAK30ToUyEniLdXpvXg=
+			l1Da12QHEg2Za6vaJsDeisxjakIGOg2vapnYERCCrQc=
 			</data>
 		</dict>
 		<key>Modules/TapiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5gk69lFBfbF5xYgrp/9C1w9X9jXFnRnA01rUwKXAMog=
+			yj6xadS5FANzuswzlfAb3X+zMFTCJCh2SV2KvtvGqpk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
