@@ -6474,6 +6474,32 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InProgressOrder",
+                "printedName": "TapiSDK.InProgressOrder",
+                "usr": "s:7TapiSDK15InProgressOrderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TapiSDK15InProgressOrderV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7TapiSDK15InProgressOrderV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TapiSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "encode",
             "printedName": "encode(to:)",
@@ -6494,9 +6520,7 @@
             "usr": "s:7TapiSDK15InProgressOrderV6encode2toys7Encoder_p_tKF",
             "mangledName": "$s7TapiSDK15InProgressOrderV6encode2toys7Encoder_p_tKF",
             "moduleName": "TapiSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
+            "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -6510,6 +6534,13 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -6596,6 +6627,32 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InProgressEmployee",
+                "printedName": "TapiSDK.InProgressEmployee",
+                "usr": "s:7TapiSDK18InProgressEmployeeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TapiSDK18InProgressEmployeeV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7TapiSDK18InProgressEmployeeV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TapiSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "encode",
             "printedName": "encode(to:)",
@@ -6630,6 +6687,13 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -6716,6 +6780,32 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InProgressCustomer",
+                "printedName": "TapiSDK.InProgressCustomer",
+                "usr": "s:7TapiSDK18InProgressCustomerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TapiSDK18InProgressCustomerV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7TapiSDK18InProgressCustomerV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TapiSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "encode",
             "printedName": "encode(to:)",
@@ -6750,6 +6840,13 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -7634,6 +7731,32 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InProgressItem",
+                "printedName": "TapiSDK.InProgressItem",
+                "usr": "s:7TapiSDK14InProgressItemV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TapiSDK14InProgressItemV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7TapiSDK14InProgressItemV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TapiSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "encode",
             "printedName": "encode(to:)",
@@ -7654,9 +7777,7 @@
             "usr": "s:7TapiSDK14InProgressItemV6encode2toys7Encoder_p_tKF",
             "mangledName": "$s7TapiSDK14InProgressItemV6encode2toys7Encoder_p_tKF",
             "moduleName": "TapiSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
+            "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -7670,6 +7791,13 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -8031,6 +8159,32 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InProgressDiscount",
+                "printedName": "TapiSDK.InProgressDiscount",
+                "usr": "s:7TapiSDK18InProgressDiscountV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TapiSDK18InProgressDiscountV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7TapiSDK18InProgressDiscountV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TapiSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "encode",
             "printedName": "encode(to:)",
@@ -8051,9 +8205,7 @@
             "usr": "s:7TapiSDK18InProgressDiscountV6encode2toys7Encoder_p_tKF",
             "mangledName": "$s7TapiSDK18InProgressDiscountV6encode2toys7Encoder_p_tKF",
             "moduleName": "TapiSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
+            "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -8067,6 +8219,13 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -8377,6 +8536,32 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InProgressModifier",
+                "printedName": "TapiSDK.InProgressModifier",
+                "usr": "s:7TapiSDK18InProgressModifierV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TapiSDK18InProgressModifierV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s7TapiSDK18InProgressModifierV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "TapiSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "encode",
             "printedName": "encode(to:)",
@@ -8397,9 +8582,7 @@
             "usr": "s:7TapiSDK18InProgressModifierV6encode2toys7Encoder_p_tKF",
             "mangledName": "$s7TapiSDK18InProgressModifierV6encode2toys7Encoder_p_tKF",
             "moduleName": "TapiSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
+            "implicit": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
           }
@@ -8412,6 +8595,13 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
           {
             "kind": "Conformance",
             "name": "Encodable",
@@ -15260,238 +15450,238 @@
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1002,
       "length": 14,
       "value": "\"pos_order_id\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 1046,
+      "offset": 1044,
       "length": 14,
       "value": "\"created_time\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1002,
       "length": 14,
       "value": "\"pos_order_id\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 1046,
+      "offset": 1044,
       "length": 14,
       "value": "\"created_time\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4188,
+      "offset": 3024,
       "length": 11,
       "value": "\"class_uid\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4228,
+      "offset": 3064,
       "length": 15,
       "value": "\"instance_uids\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4322,
+      "offset": 3158,
       "length": 20,
       "value": "\"pre_tax_unit_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4375,
+      "offset": 3211,
       "length": 21,
       "value": "\"pre_tax_total_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4430,
+      "offset": 3266,
       "length": 22,
       "value": "\"post_tax_total_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4485,
+      "offset": 3321,
       "length": 21,
       "value": "\"post_tax_unit_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4533,
+      "offset": 3369,
       "length": 14,
       "value": "\"per_unit_tax\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4572,
+      "offset": 3408,
       "length": 11,
       "value": "\"total_tax\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4607,
+      "offset": 3443,
       "length": 10,
       "value": "\"tax_rate\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4644,
+      "offset": 3480,
       "length": 14,
       "value": "\"show_pre_tax\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4188,
+      "offset": 3024,
       "length": 11,
       "value": "\"class_uid\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4228,
+      "offset": 3064,
       "length": 15,
       "value": "\"instance_uids\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4322,
+      "offset": 3158,
       "length": 20,
       "value": "\"pre_tax_unit_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4375,
+      "offset": 3211,
       "length": 21,
       "value": "\"pre_tax_total_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4430,
+      "offset": 3266,
       "length": 22,
       "value": "\"post_tax_total_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4485,
+      "offset": 3321,
       "length": 21,
       "value": "\"post_tax_unit_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4533,
+      "offset": 3369,
       "length": 14,
       "value": "\"per_unit_tax\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4572,
+      "offset": 3408,
       "length": 11,
       "value": "\"total_tax\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4607,
+      "offset": 3443,
       "length": 10,
       "value": "\"tax_rate\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 4644,
+      "offset": 3480,
       "length": 14,
       "value": "\"show_pre_tax\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 7958,
+      "offset": 5189,
       "length": 11,
       "value": "\"class_uid\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 8022,
+      "offset": 5253,
       "length": 14,
       "value": "\"instance_uid\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 8066,
+      "offset": 5297,
       "length": 17,
       "value": "\"post_tax_amount\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 8112,
+      "offset": 5343,
       "length": 16,
       "value": "\"pre_tax_amount\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 8155,
+      "offset": 5386,
       "length": 14,
       "value": "\"show_pre_tax\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 7958,
+      "offset": 5189,
       "length": 11,
       "value": "\"class_uid\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 8022,
+      "offset": 5253,
       "length": 14,
       "value": "\"instance_uid\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 8066,
+      "offset": 5297,
       "length": 17,
       "value": "\"post_tax_amount\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 8112,
+      "offset": 5343,
       "length": 16,
       "value": "\"pre_tax_amount\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 8155,
+      "offset": 5386,
       "length": 14,
       "value": "\"show_pre_tax\""
     },
