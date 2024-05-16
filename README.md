@@ -11,7 +11,7 @@ The TapiSDK can be integrated using Swift Package Manager or through CocoaPods.
 
 # Swift Package Manager (SPM)
 ```
-.package(url: "https://github.com/fivestars/tapi-sdk-ios-distribution", exact: "0.0.5"),
+.package(url: "https://github.com/fivestars/tapi-sdk-ios-distribution", exact: "0.0.6"),
 ```
 
 # Cocoapod
@@ -21,7 +21,7 @@ The TapiSDK can be integrated using Swift Package Manager or through CocoaPods.
 source "https://github.com/fivestars/AnyCodable.git"
 
 # Specify the TapiSDK as a dependency
-pod 'TapiSDK', :git => 'https://github.com/fivestars/tapi-sdk-ios-distribution', :tag => '0.0.5'
+pod 'TapiSDK', :git => 'https://github.com/fivestars/tapi-sdk-ios-distribution', :tag => '0.0.6'
 ```
 
 Note: You will also need to ensure `BUILD_LIBRARY_FOR_DISTRIBUTION` is set to `YES` and that you have `use_frameworks!` defined in your Podfile. 
