@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = 'TapiSDK'
-  s.version       = '0.0.5'
+  s.version       = '0.0.6'
   s.summary       = 'The TapiSDK for iOS is a wrapper around the Terminal API for payment processing for Fivestars cPay integrators.'
   s.homepage      = 'http://fivestars.com'
   s.license       = { :type => 'MIT' }

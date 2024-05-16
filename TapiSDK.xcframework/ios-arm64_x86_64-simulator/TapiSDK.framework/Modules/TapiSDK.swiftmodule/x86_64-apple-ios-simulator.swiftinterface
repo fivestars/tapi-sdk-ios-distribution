@@ -30,6 +30,17 @@ public struct CancelCheckoutResponse : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public enum TapiCurrency : Swift.String, Swift.Codable {
+  case CAD
+  case GBP
+  case HNL
+  case USD
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public enum CancelCheckoutStatus : Swift.String, Swift.Codable {
   case transactionCanceled
   case unableToCancel
@@ -87,7 +98,7 @@ public enum CheckoutChangePaymentStatus : Swift.String, Swift.Codable {
 public struct CheckoutResponse : Swift.Codable {
   public let amount: Swift.Int?
   public let checkoutReference: Swift.String?
-  public let currency: Swift.String?
+  public let currency: TapiSDK.TapiCurrency?
   public let cardUID: Swift.String?
   public let last4: Swift.String?
   public let refundableAmount: Swift.Int?
@@ -193,16 +204,29 @@ public struct InProgressOrder : Swift.Codable {
   public let tax: Swift.Int
   public let subtotal: Swift.Int
   public let posOrderID: Swift.String
-  public let currency: Swift.String
+  public let currency: TapiSDK.TapiCurrency
   public let tip: Swift.Int
   public let createdTime: Swift.Int
   public let employee: TapiSDK.InProgressEmployee
   public let customer: TapiSDK.InProgressCustomer?
   public let items: [TapiSDK.InProgressItem]
   public let discounts: [TapiSDK.InProgressDiscount]
-  public init(total: Swift.Int, tax: Swift.Int, subtotal: Swift.Int, posOrderID: Swift.String, currency: Swift.String, tip: Swift.Int, createdTime: Swift.Int, employee: TapiSDK.InProgressEmployee, customer: TapiSDK.InProgressCustomer? = nil, items: [TapiSDK.InProgressItem], discounts: [TapiSDK.InProgressDiscount])
+  public let savingsTotal: Swift.Int?
+  public let autoExpand: Swift.Bool
+  public let defaultScrollTo: TapiSDK.InProgressScrollTo
+  public init(total: Swift.Int, tax: Swift.Int, subtotal: Swift.Int, posOrderID: Swift.String, currency: TapiSDK.TapiCurrency, tip: Swift.Int, createdTime: Swift.Int, employee: TapiSDK.InProgressEmployee, customer: TapiSDK.InProgressCustomer? = nil, items: [TapiSDK.InProgressItem], discounts: [TapiSDK.InProgressDiscount], savingsTotal: Swift.Int? = nil, autoExpand: Swift.Bool = false, defaultScrollTo: TapiSDK.InProgressScrollTo = .bottom)
+  public init?(total: Swift.Int, tax: Swift.Int, subtotal: Swift.Int, posOrderID: Swift.String, currency: Swift.String, tip: Swift.Int, createdTime: Swift.Int, employee: TapiSDK.InProgressEmployee, customer: TapiSDK.InProgressCustomer? = nil, items: [TapiSDK.InProgressItem], discounts: [TapiSDK.InProgressDiscount], savingsTotal: Swift.Int? = nil, autoExpand: Swift.Bool = false, defaultScrollTo: TapiSDK.InProgressScrollTo = .bottom)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public enum InProgressScrollTo : Swift.String, Swift.Codable {
+  case bottom
+  case top
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public struct InProgressEmployee : Swift.Codable {
   public let id: Swift.String
@@ -243,9 +267,19 @@ public struct InProgressDiscount : Swift.Codable {
   public let postTaxAmount: Swift.Int
   public let preTaxAmount: Swift.Int
   public let showPreTax: Swift.Bool
-  public init(description: Swift.String, instanceUID: Swift.String, postTaxAmount: Swift.Int, preTaxAmount: Swift.Int, showPreTax: Swift.Bool, classUID: Swift.String? = nil)
+  public let discountType: TapiSDK.InProgressDiscountType
+  public init(description: Swift.String, instanceUID: Swift.String, postTaxAmount: Swift.Int, preTaxAmount: Swift.Int, showPreTax: Swift.Bool, classUID: Swift.String? = nil, discountType: TapiSDK.InProgressDiscountType = .reward)
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+public enum InProgressDiscountType : Swift.String, Swift.Codable {
+  case discount
+  case reward
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public struct InProgressModifier : Swift.Codable {
   public let id: Swift.String
@@ -258,12 +292,13 @@ public struct InProgressModifier : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct Order : Swift.Codable {
-  public let currency: Swift.String
+  public let currency: TapiSDK.TapiCurrency
   public let subtotal: Swift.Int
   public let tax: Swift.Int
   public let products: [TapiSDK.Product]
   public let posOrderID: Swift.String
-  public init(currency: Swift.String, subtotal: Swift.Int, tax: Swift.Int, products: [TapiSDK.Product])
+  public init(currency: TapiSDK.TapiCurrency, subtotal: Swift.Int, tax: Swift.Int, products: [TapiSDK.Product])
+  public init?(currency: Swift.String, subtotal: Swift.Int, tax: Swift.Int, products: [TapiSDK.Product])
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -456,6 +491,9 @@ public enum TransactionType : Swift.String, Swift.Codable {
 extension TapiSDK.ActionStatus : Swift.Equatable {}
 extension TapiSDK.ActionStatus : Swift.Hashable {}
 extension TapiSDK.ActionStatus : Swift.RawRepresentable {}
+extension TapiSDK.TapiCurrency : Swift.Equatable {}
+extension TapiSDK.TapiCurrency : Swift.Hashable {}
+extension TapiSDK.TapiCurrency : Swift.RawRepresentable {}
 extension TapiSDK.CancelCheckoutStatus : Swift.Equatable {}
 extension TapiSDK.CancelCheckoutStatus : Swift.Hashable {}
 extension TapiSDK.CancelCheckoutStatus : Swift.RawRepresentable {}
@@ -468,6 +506,12 @@ extension TapiSDK.TransactionStatus : Swift.RawRepresentable {}
 extension TapiSDK.DeviceState : Swift.Equatable {}
 extension TapiSDK.DeviceState : Swift.Hashable {}
 extension TapiSDK.DeviceState : Swift.RawRepresentable {}
+extension TapiSDK.InProgressScrollTo : Swift.Equatable {}
+extension TapiSDK.InProgressScrollTo : Swift.Hashable {}
+extension TapiSDK.InProgressScrollTo : Swift.RawRepresentable {}
+extension TapiSDK.InProgressDiscountType : Swift.Equatable {}
+extension TapiSDK.InProgressDiscountType : Swift.Hashable {}
+extension TapiSDK.InProgressDiscountType : Swift.RawRepresentable {}
 extension TapiSDK.PaymentChangeType : Swift.Equatable {}
 extension TapiSDK.PaymentChangeType : Swift.Hashable {}
 extension TapiSDK.PaymentChangeType : Swift.RawRepresentable {}
