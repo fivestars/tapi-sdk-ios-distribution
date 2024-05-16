@@ -471,6 +471,304 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TapiSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TapiCurrency",
+        "printedName": "TapiCurrency",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "CAD",
+            "printedName": "CAD",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapiSDK.TapiCurrency.Type) -> TapiSDK.TapiCurrency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TapiCurrency",
+                    "printedName": "TapiSDK.TapiCurrency",
+                    "usr": "s:7TapiSDK0A8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapiSDK.TapiCurrency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TapiCurrency",
+                        "printedName": "TapiSDK.TapiCurrency",
+                        "usr": "s:7TapiSDK0A8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7TapiSDK0A8CurrencyO3CADyA2CmF",
+            "mangledName": "$s7TapiSDK0A8CurrencyO3CADyA2CmF",
+            "moduleName": "TapiSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "GBP",
+            "printedName": "GBP",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapiSDK.TapiCurrency.Type) -> TapiSDK.TapiCurrency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TapiCurrency",
+                    "printedName": "TapiSDK.TapiCurrency",
+                    "usr": "s:7TapiSDK0A8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapiSDK.TapiCurrency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TapiCurrency",
+                        "printedName": "TapiSDK.TapiCurrency",
+                        "usr": "s:7TapiSDK0A8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7TapiSDK0A8CurrencyO3GBPyA2CmF",
+            "mangledName": "$s7TapiSDK0A8CurrencyO3GBPyA2CmF",
+            "moduleName": "TapiSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "HNL",
+            "printedName": "HNL",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapiSDK.TapiCurrency.Type) -> TapiSDK.TapiCurrency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TapiCurrency",
+                    "printedName": "TapiSDK.TapiCurrency",
+                    "usr": "s:7TapiSDK0A8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapiSDK.TapiCurrency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TapiCurrency",
+                        "printedName": "TapiSDK.TapiCurrency",
+                        "usr": "s:7TapiSDK0A8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7TapiSDK0A8CurrencyO3HNLyA2CmF",
+            "mangledName": "$s7TapiSDK0A8CurrencyO3HNLyA2CmF",
+            "moduleName": "TapiSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "USD",
+            "printedName": "USD",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapiSDK.TapiCurrency.Type) -> TapiSDK.TapiCurrency",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TapiCurrency",
+                    "printedName": "TapiSDK.TapiCurrency",
+                    "usr": "s:7TapiSDK0A8CurrencyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapiSDK.TapiCurrency.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TapiCurrency",
+                        "printedName": "TapiSDK.TapiCurrency",
+                        "usr": "s:7TapiSDK0A8CurrencyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7TapiSDK0A8CurrencyO3USDyA2CmF",
+            "mangledName": "$s7TapiSDK0A8CurrencyO3USDyA2CmF",
+            "moduleName": "TapiSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TapiSDK.TapiCurrency?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TapiCurrency",
+                    "printedName": "TapiSDK.TapiCurrency",
+                    "usr": "s:7TapiSDK0A8CurrencyO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TapiSDK0A8CurrencyO8rawValueACSgSS_tcfc",
+            "mangledName": "$s7TapiSDK0A8CurrencyO8rawValueACSgSS_tcfc",
+            "moduleName": "TapiSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TapiSDK0A8CurrencyO8rawValueSSvp",
+            "mangledName": "$s7TapiSDK0A8CurrencyO8rawValueSSvp",
+            "moduleName": "TapiSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TapiSDK0A8CurrencyO8rawValueSSvg",
+                "mangledName": "$s7TapiSDK0A8CurrencyO8rawValueSSvg",
+                "moduleName": "TapiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7TapiSDK0A8CurrencyO",
+        "mangledName": "$s7TapiSDK0A8CurrencyO",
+        "moduleName": "TapiSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "CancelCheckoutStatus",
         "printedName": "CancelCheckoutStatus",
@@ -2168,21 +2466,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.String?",
+                "printedName": "TapiSDK.TapiCurrency?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "TapiCurrency",
+                    "printedName": "TapiSDK.TapiCurrency",
+                    "usr": "s:7TapiSDK0A8CurrencyO"
                   }
                 ],
                 "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:7TapiSDK16CheckoutResponseV8currencySSSgvp",
-            "mangledName": "$s7TapiSDK16CheckoutResponseV8currencySSSgvp",
+            "usr": "s:7TapiSDK16CheckoutResponseV8currencyAA0A8CurrencyOSgvp",
+            "mangledName": "$s7TapiSDK16CheckoutResponseV8currencyAA0A8CurrencyOSgvp",
             "moduleName": "TapiSDK",
             "declAttributes": [
               "HasStorage",
@@ -2199,21 +2497,21 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "Swift.String?",
+                    "printedName": "TapiSDK.TapiCurrency?",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "TapiCurrency",
+                        "printedName": "TapiSDK.TapiCurrency",
+                        "usr": "s:7TapiSDK0A8CurrencyO"
                       }
                     ],
                     "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7TapiSDK16CheckoutResponseV8currencySSSgvg",
-                "mangledName": "$s7TapiSDK16CheckoutResponseV8currencySSSgvg",
+                "usr": "s:7TapiSDK16CheckoutResponseV8currencyAA0A8CurrencyOSgvg",
+                "mangledName": "$s7TapiSDK16CheckoutResponseV8currencyAA0A8CurrencyOSgvg",
                 "moduleName": "TapiSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6010,14 +6308,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "TapiCurrency",
+                "printedName": "TapiSDK.TapiCurrency",
+                "usr": "s:7TapiSDK0A8CurrencyO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:7TapiSDK15InProgressOrderV8currencySSvp",
-            "mangledName": "$s7TapiSDK15InProgressOrderV8currencySSvp",
+            "usr": "s:7TapiSDK15InProgressOrderV8currencyAA0A8CurrencyOvp",
+            "mangledName": "$s7TapiSDK15InProgressOrderV8currencyAA0A8CurrencyOvp",
             "moduleName": "TapiSDK",
             "declAttributes": [
               "HasStorage",
@@ -6033,14 +6331,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "TapiCurrency",
+                    "printedName": "TapiSDK.TapiCurrency",
+                    "usr": "s:7TapiSDK0A8CurrencyO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7TapiSDK15InProgressOrderV8currencySSvg",
-                "mangledName": "$s7TapiSDK15InProgressOrderV8currencySSvg",
+                "usr": "s:7TapiSDK15InProgressOrderV8currencyAA0A8CurrencyOvg",
+                "mangledName": "$s7TapiSDK15InProgressOrderV8currencyAA0A8CurrencyOvg",
                 "moduleName": "TapiSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6361,15 +6659,314 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "savingsTotal",
+            "printedName": "savingsTotal",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TapiSDK15InProgressOrderV12savingsTotalSiSgvp",
+            "mangledName": "$s7TapiSDK15InProgressOrderV12savingsTotalSiSgvp",
+            "moduleName": "TapiSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TapiSDK15InProgressOrderV12savingsTotalSiSgvg",
+                "mangledName": "$s7TapiSDK15InProgressOrderV12savingsTotalSiSgvg",
+                "moduleName": "TapiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "autoExpand",
+            "printedName": "autoExpand",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TapiSDK15InProgressOrderV10autoExpandSbvp",
+            "mangledName": "$s7TapiSDK15InProgressOrderV10autoExpandSbvp",
+            "moduleName": "TapiSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TapiSDK15InProgressOrderV10autoExpandSbvg",
+                "mangledName": "$s7TapiSDK15InProgressOrderV10autoExpandSbvg",
+                "moduleName": "TapiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultScrollTo",
+            "printedName": "defaultScrollTo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InProgressScrollTo",
+                "printedName": "TapiSDK.InProgressScrollTo",
+                "usr": "s:7TapiSDK18InProgressScrollToO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TapiSDK15InProgressOrderV15defaultScrollToAA0cdgH0Ovp",
+            "mangledName": "$s7TapiSDK15InProgressOrderV15defaultScrollToAA0cdgH0Ovp",
+            "moduleName": "TapiSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InProgressScrollTo",
+                    "printedName": "TapiSDK.InProgressScrollTo",
+                    "usr": "s:7TapiSDK18InProgressScrollToO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TapiSDK15InProgressOrderV15defaultScrollToAA0cdgH0Ovg",
+                "mangledName": "$s7TapiSDK15InProgressOrderV15defaultScrollToAA0cdgH0Ovg",
+                "moduleName": "TapiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(total:tax:subtotal:posOrderID:currency:tip:createdTime:employee:customer:items:discounts:)",
+            "printedName": "init(total:tax:subtotal:posOrderID:currency:tip:createdTime:employee:customer:items:discounts:savingsTotal:autoExpand:defaultScrollTo:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "InProgressOrder",
                 "printedName": "TapiSDK.InProgressOrder",
                 "usr": "s:7TapiSDK15InProgressOrderV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TapiCurrency",
+                "printedName": "TapiSDK.TapiCurrency",
+                "usr": "s:7TapiSDK0A8CurrencyO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InProgressEmployee",
+                "printedName": "TapiSDK.InProgressEmployee",
+                "usr": "s:7TapiSDK18InProgressEmployeeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TapiSDK.InProgressCustomer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InProgressCustomer",
+                    "printedName": "TapiSDK.InProgressCustomer",
+                    "usr": "s:7TapiSDK18InProgressCustomerV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[TapiSDK.InProgressItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InProgressItem",
+                    "printedName": "TapiSDK.InProgressItem",
+                    "usr": "s:7TapiSDK14InProgressItemV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[TapiSDK.InProgressDiscount]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InProgressDiscount",
+                    "printedName": "TapiSDK.InProgressDiscount",
+                    "usr": "s:7TapiSDK18InProgressDiscountV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InProgressScrollTo",
+                "printedName": "TapiSDK.InProgressScrollTo",
+                "hasDefaultArg": true,
+                "usr": "s:7TapiSDK18InProgressScrollToO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TapiSDK15InProgressOrderV5total3tax8subtotal03posE2ID8currency3tip11createdTime8employee8customer5items9discounts12savingsTotal10autoExpand15defaultScrollToACSi_S2iSSAA0A8CurrencyOS2iAA0cD8EmployeeVAA0cD8CustomerVSgSayAA0cD4ItemVGSayAA0cD8DiscountVGSiSgSbAA0cdxY0Otcfc",
+            "mangledName": "$s7TapiSDK15InProgressOrderV5total3tax8subtotal03posE2ID8currency3tip11createdTime8employee8customer5items9discounts12savingsTotal10autoExpand15defaultScrollToACSi_S2iSSAA0A8CurrencyOS2iAA0cD8EmployeeVAA0cD8CustomerVSgSayAA0cD4ItemVGSayAA0cD8DiscountVGSiSgSbAA0cdxY0Otcfc",
+            "moduleName": "TapiSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(total:tax:subtotal:posOrderID:currency:tip:createdTime:employee:customer:items:discounts:savingsTotal:autoExpand:defaultScrollTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TapiSDK.InProgressOrder?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InProgressOrder",
+                    "printedName": "TapiSDK.InProgressOrder",
+                    "usr": "s:7TapiSDK15InProgressOrderV"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -6461,17 +7058,73 @@
                   }
                 ],
                 "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InProgressScrollTo",
+                "printedName": "TapiSDK.InProgressScrollTo",
+                "hasDefaultArg": true,
+                "usr": "s:7TapiSDK18InProgressScrollToO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7TapiSDK15InProgressOrderV5total3tax8subtotal03posE2ID8currency3tip11createdTime8employee8customer5items9discountsACSi_S2iS2SS2iAA0cD8EmployeeVAA0cD8CustomerVSgSayAA0cD4ItemVGSayAA0cD8DiscountVGtcfc",
-            "mangledName": "$s7TapiSDK15InProgressOrderV5total3tax8subtotal03posE2ID8currency3tip11createdTime8employee8customer5items9discountsACSi_S2iS2SS2iAA0cD8EmployeeVAA0cD8CustomerVSgSayAA0cD4ItemVGSayAA0cD8DiscountVGtcfc",
+            "usr": "s:7TapiSDK15InProgressOrderV5total3tax8subtotal03posE2ID8currency3tip11createdTime8employee8customer5items9discounts12savingsTotal10autoExpand15defaultScrollToACSgSi_S2iS2SS2iAA0cD8EmployeeVAA0cD8CustomerVSgSayAA0cD4ItemVGSayAA0cD8DiscountVGSiSgSbAA0cdxY0Otcfc",
+            "mangledName": "$s7TapiSDK15InProgressOrderV5total3tax8subtotal03posE2ID8currency3tip11createdTime8employee8customer5items9discounts12savingsTotal10autoExpand15defaultScrollToACSgSi_S2iS2SS2iAA0cD8EmployeeVAA0cD8CustomerVSgSayAA0cD4ItemVGSayAA0cD8DiscountVGSiSgSbAA0cdxY0Otcfc",
             "moduleName": "TapiSDK",
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TapiSDK15InProgressOrderV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7TapiSDK15InProgressOrderV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TapiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -6498,31 +7151,6 @@
             "implicit": true,
             "throwing": true,
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7TapiSDK15InProgressOrderV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s7TapiSDK15InProgressOrderV6encode2toys7Encoder_p_tKF",
-            "moduleName": "TapiSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -6534,6 +7162,220 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InProgressScrollTo",
+        "printedName": "InProgressScrollTo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bottom",
+            "printedName": "bottom",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapiSDK.InProgressScrollTo.Type) -> TapiSDK.InProgressScrollTo",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InProgressScrollTo",
+                    "printedName": "TapiSDK.InProgressScrollTo",
+                    "usr": "s:7TapiSDK18InProgressScrollToO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapiSDK.InProgressScrollTo.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InProgressScrollTo",
+                        "printedName": "TapiSDK.InProgressScrollTo",
+                        "usr": "s:7TapiSDK18InProgressScrollToO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7TapiSDK18InProgressScrollToO6bottomyA2CmF",
+            "mangledName": "$s7TapiSDK18InProgressScrollToO6bottomyA2CmF",
+            "moduleName": "TapiSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "top",
+            "printedName": "top",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapiSDK.InProgressScrollTo.Type) -> TapiSDK.InProgressScrollTo",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InProgressScrollTo",
+                    "printedName": "TapiSDK.InProgressScrollTo",
+                    "usr": "s:7TapiSDK18InProgressScrollToO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapiSDK.InProgressScrollTo.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InProgressScrollTo",
+                        "printedName": "TapiSDK.InProgressScrollTo",
+                        "usr": "s:7TapiSDK18InProgressScrollToO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7TapiSDK18InProgressScrollToO3topyA2CmF",
+            "mangledName": "$s7TapiSDK18InProgressScrollToO3topyA2CmF",
+            "moduleName": "TapiSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TapiSDK.InProgressScrollTo?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InProgressScrollTo",
+                    "printedName": "TapiSDK.InProgressScrollTo",
+                    "usr": "s:7TapiSDK18InProgressScrollToO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TapiSDK18InProgressScrollToO8rawValueACSgSS_tcfc",
+            "mangledName": "$s7TapiSDK18InProgressScrollToO8rawValueACSgSS_tcfc",
+            "moduleName": "TapiSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TapiSDK18InProgressScrollToO8rawValueSSvp",
+            "mangledName": "$s7TapiSDK18InProgressScrollToO8rawValueSSvp",
+            "moduleName": "TapiSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TapiSDK18InProgressScrollToO8rawValueSSvg",
+                "mangledName": "$s7TapiSDK18InProgressScrollToO8rawValueSSvg",
+                "moduleName": "TapiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7TapiSDK18InProgressScrollToO",
+        "mangledName": "$s7TapiSDK18InProgressScrollToO",
+        "moduleName": "TapiSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -7731,6 +8573,33 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TapiSDK14InProgressItemV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7TapiSDK14InProgressItemV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TapiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -7755,31 +8624,6 @@
             "implicit": true,
             "throwing": true,
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7TapiSDK14InProgressItemV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s7TapiSDK14InProgressItemV6encode2toys7Encoder_p_tKF",
-            "moduleName": "TapiSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -8093,9 +8937,53 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "discountType",
+            "printedName": "discountType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "InProgressDiscountType",
+                "printedName": "TapiSDK.InProgressDiscountType",
+                "usr": "s:7TapiSDK22InProgressDiscountTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TapiSDK18InProgressDiscountV12discountTypeAA0cdeG0Ovp",
+            "mangledName": "$s7TapiSDK18InProgressDiscountV12discountTypeAA0cdeG0Ovp",
+            "moduleName": "TapiSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InProgressDiscountType",
+                    "printedName": "TapiSDK.InProgressDiscountType",
+                    "usr": "s:7TapiSDK22InProgressDiscountTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TapiSDK18InProgressDiscountV12discountTypeAA0cdeG0Ovg",
+                "mangledName": "$s7TapiSDK18InProgressDiscountV12discountTypeAA0cdeG0Ovg",
+                "moduleName": "TapiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(description:instanceUID:postTaxAmount:preTaxAmount:showPreTax:classUID:)",
+            "printedName": "init(description:instanceUID:postTaxAmount:preTaxAmount:showPreTax:classUID:discountType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -8147,16 +9035,50 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "InProgressDiscountType",
+                "printedName": "TapiSDK.InProgressDiscountType",
+                "hasDefaultArg": true,
+                "usr": "s:7TapiSDK22InProgressDiscountTypeO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7TapiSDK18InProgressDiscountV11description11instanceUID13postTaxAmount03prejK007showPreJ005classH0ACSS_SSS2iSbSSSgtcfc",
-            "mangledName": "$s7TapiSDK18InProgressDiscountV11description11instanceUID13postTaxAmount03prejK007showPreJ005classH0ACSS_SSS2iSbSSSgtcfc",
+            "usr": "s:7TapiSDK18InProgressDiscountV11description11instanceUID13postTaxAmount03prejK007showPreJ005classH012discountTypeACSS_SSS2iSbSSSgAA0cdeQ0Otcfc",
+            "mangledName": "$s7TapiSDK18InProgressDiscountV11description11instanceUID13postTaxAmount03prejK007showPreJ005classH012discountTypeACSS_SSS2iSbSSSgAA0cdeQ0Otcfc",
             "moduleName": "TapiSDK",
             "declAttributes": [
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7TapiSDK18InProgressDiscountV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s7TapiSDK18InProgressDiscountV6encode2toys7Encoder_p_tKF",
+            "moduleName": "TapiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Constructor",
@@ -8183,31 +9105,6 @@
             "implicit": true,
             "throwing": true,
             "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "any Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:7TapiSDK18InProgressDiscountV6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s7TapiSDK18InProgressDiscountV6encode2toys7Encoder_p_tKF",
-            "moduleName": "TapiSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -8219,6 +9116,220 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "InProgressDiscountType",
+        "printedName": "InProgressDiscountType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "discount",
+            "printedName": "discount",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapiSDK.InProgressDiscountType.Type) -> TapiSDK.InProgressDiscountType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InProgressDiscountType",
+                    "printedName": "TapiSDK.InProgressDiscountType",
+                    "usr": "s:7TapiSDK22InProgressDiscountTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapiSDK.InProgressDiscountType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InProgressDiscountType",
+                        "printedName": "TapiSDK.InProgressDiscountType",
+                        "usr": "s:7TapiSDK22InProgressDiscountTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7TapiSDK22InProgressDiscountTypeO8discountyA2CmF",
+            "mangledName": "$s7TapiSDK22InProgressDiscountTypeO8discountyA2CmF",
+            "moduleName": "TapiSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "reward",
+            "printedName": "reward",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TapiSDK.InProgressDiscountType.Type) -> TapiSDK.InProgressDiscountType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InProgressDiscountType",
+                    "printedName": "TapiSDK.InProgressDiscountType",
+                    "usr": "s:7TapiSDK22InProgressDiscountTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TapiSDK.InProgressDiscountType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InProgressDiscountType",
+                        "printedName": "TapiSDK.InProgressDiscountType",
+                        "usr": "s:7TapiSDK22InProgressDiscountTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:7TapiSDK22InProgressDiscountTypeO6rewardyA2CmF",
+            "mangledName": "$s7TapiSDK22InProgressDiscountTypeO6rewardyA2CmF",
+            "moduleName": "TapiSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TapiSDK.InProgressDiscountType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InProgressDiscountType",
+                    "printedName": "TapiSDK.InProgressDiscountType",
+                    "usr": "s:7TapiSDK22InProgressDiscountTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TapiSDK22InProgressDiscountTypeO8rawValueACSgSS_tcfc",
+            "mangledName": "$s7TapiSDK22InProgressDiscountTypeO8rawValueACSgSS_tcfc",
+            "moduleName": "TapiSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7TapiSDK22InProgressDiscountTypeO8rawValueSSvp",
+            "mangledName": "$s7TapiSDK22InProgressDiscountTypeO8rawValueSSvp",
+            "moduleName": "TapiSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7TapiSDK22InProgressDiscountTypeO8rawValueSSvg",
+                "mangledName": "$s7TapiSDK22InProgressDiscountTypeO8rawValueSSvg",
+                "moduleName": "TapiSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:7TapiSDK22InProgressDiscountTypeO",
+        "mangledName": "$s7TapiSDK22InProgressDiscountTypeO",
+        "moduleName": "TapiSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
           {
             "kind": "Conformance",
             "name": "Decodable",
@@ -8592,7 +9703,8 @@
         "mangledName": "$s7TapiSDK18InProgressModifierV",
         "moduleName": "TapiSDK",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -8690,14 +9802,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "TapiCurrency",
+                "printedName": "TapiSDK.TapiCurrency",
+                "usr": "s:7TapiSDK0A8CurrencyO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:7TapiSDK5OrderV8currencySSvp",
-            "mangledName": "$s7TapiSDK5OrderV8currencySSvp",
+            "usr": "s:7TapiSDK5OrderV8currencyAA0A8CurrencyOvp",
+            "mangledName": "$s7TapiSDK5OrderV8currencyAA0A8CurrencyOvp",
             "moduleName": "TapiSDK",
             "declAttributes": [
               "HasStorage",
@@ -8713,14 +9825,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "TapiCurrency",
+                    "printedName": "TapiSDK.TapiCurrency",
+                    "usr": "s:7TapiSDK0A8CurrencyO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7TapiSDK5OrderV8currencySSvg",
-                "mangledName": "$s7TapiSDK5OrderV8currencySSvg",
+                "usr": "s:7TapiSDK5OrderV8currencyAA0A8CurrencyOvg",
+                "mangledName": "$s7TapiSDK5OrderV8currencyAA0A8CurrencyOvg",
                 "moduleName": "TapiSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -8933,6 +10045,67 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "TapiCurrency",
+                "printedName": "TapiSDK.TapiCurrency",
+                "usr": "s:7TapiSDK0A8CurrencyO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[TapiSDK.Product]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Product",
+                    "printedName": "TapiSDK.Product",
+                    "usr": "s:7TapiSDK7ProductV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7TapiSDK5OrderV8currency8subtotal3tax8productsAcA0A8CurrencyO_S2iSayAA7ProductVGtcfc",
+            "mangledName": "$s7TapiSDK5OrderV8currency8subtotal3tax8productsAcA0A8CurrencyO_S2iSayAA7ProductVGtcfc",
+            "moduleName": "TapiSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(currency:subtotal:tax:products:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TapiSDK.Order?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Order",
+                    "printedName": "TapiSDK.Order",
+                    "usr": "s:7TapiSDK5OrderV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
@@ -8965,11 +10138,12 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7TapiSDK5OrderV8currency8subtotal3tax8productsACSS_S2iSayAA7ProductVGtcfc",
-            "mangledName": "$s7TapiSDK5OrderV8currency8subtotal3tax8productsACSS_S2iSayAA7ProductVGtcfc",
+            "usr": "s:7TapiSDK5OrderV8currency8subtotal3tax8productsACSgSS_S2iSayAA7ProductVGtcfc",
+            "mangledName": "$s7TapiSDK5OrderV8currency8subtotal3tax8productsACSgSS_S2iSayAA7ProductVGtcfc",
             "moduleName": "TapiSDK",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -14631,336 +15805,336 @@
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 970,
+      "offset": 976,
       "length": 20,
       "value": "\"checkout_reference\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1036,
+      "offset": 1042,
       "length": 10,
       "value": "\"card_uid\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1098,
+      "offset": 1104,
       "length": 19,
       "value": "\"refundable_amount\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1179,
+      "offset": 1185,
       "length": 11,
       "value": "\"card_type\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 970,
+      "offset": 976,
       "length": 20,
       "value": "\"checkout_reference\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1036,
+      "offset": 1042,
       "length": 10,
       "value": "\"card_uid\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1098,
+      "offset": 1104,
       "length": 19,
       "value": "\"refundable_amount\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1179,
+      "offset": 1185,
       "length": 11,
       "value": "\"card_type\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1321,
+      "offset": 1327,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1353,
+      "offset": 1359,
       "length": 12,
       "value": "\"SUCCESSFUL\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1391,
+      "offset": 1397,
       "length": 17,
       "value": "\"CANCELED_BY_POS\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1439,
+      "offset": 1445,
       "length": 22,
       "value": "\"CANCELED_BY_CUSTOMER\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1487,
+      "offset": 1493,
       "length": 16,
       "value": "\"DECLINED_ERROR\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1535,
+      "offset": 1541,
       "length": 24,
       "value": "\"DECLINED_ERROR_DIP_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1593,
+      "offset": 1599,
       "length": 26,
       "value": "\"DECLINED_ERROR_SWIPE_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1651,
+      "offset": 1657,
       "length": 23,
       "value": "\"PAYMENT_GENERAL_ERROR\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1707,
+      "offset": 1713,
       "length": 25,
       "value": "\"PAYMENT_GENERAL_DIP_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1767,
+      "offset": 1773,
       "length": 27,
       "value": "\"PAYMENT_GENERAL_SWIPE_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1819,
+      "offset": 1825,
       "length": 16,
       "value": "\"DIP_READ_ERROR\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1863,
+      "offset": 1869,
       "length": 20,
       "value": "\"DIP_READ_ERROR_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1910,
+      "offset": 1916,
       "length": 18,
       "value": "\"SWIPE_READ_ERROR\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1958,
+      "offset": 1964,
       "length": 22,
       "value": "\"SWIPE_READ_ERROR_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2005,
+      "offset": 2011,
       "length": 16,
       "value": "\"NFC_READ_ERROR\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2052,
+      "offset": 2058,
       "length": 23,
       "value": "\"NFC_DECLINE_ERROR_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2106,
+      "offset": 2112,
       "length": 23,
       "value": "\"NFC_GENERAL_ERROR_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2152,
+      "offset": 2158,
       "length": 13,
       "value": "\"SCREEN_TIPS\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2192,
+      "offset": 2198,
       "length": 17,
       "value": "\"SCREEN_APPROVAL\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2246,
+      "offset": 2252,
       "length": 28,
       "value": "\"SCREEN_REWARD_NOTIFICATION\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1321,
+      "offset": 1327,
       "length": 9,
       "value": "\"PENDING\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1353,
+      "offset": 1359,
       "length": 12,
       "value": "\"SUCCESSFUL\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1391,
+      "offset": 1397,
       "length": 17,
       "value": "\"CANCELED_BY_POS\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1439,
+      "offset": 1445,
       "length": 22,
       "value": "\"CANCELED_BY_CUSTOMER\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1487,
+      "offset": 1493,
       "length": 16,
       "value": "\"DECLINED_ERROR\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1535,
+      "offset": 1541,
       "length": 24,
       "value": "\"DECLINED_ERROR_DIP_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1593,
+      "offset": 1599,
       "length": 26,
       "value": "\"DECLINED_ERROR_SWIPE_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1651,
+      "offset": 1657,
       "length": 23,
       "value": "\"PAYMENT_GENERAL_ERROR\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1707,
+      "offset": 1713,
       "length": 25,
       "value": "\"PAYMENT_GENERAL_DIP_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1767,
+      "offset": 1773,
       "length": 27,
       "value": "\"PAYMENT_GENERAL_SWIPE_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1819,
+      "offset": 1825,
       "length": 16,
       "value": "\"DIP_READ_ERROR\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1863,
+      "offset": 1869,
       "length": 20,
       "value": "\"DIP_READ_ERROR_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1910,
+      "offset": 1916,
       "length": 18,
       "value": "\"SWIPE_READ_ERROR\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 1958,
+      "offset": 1964,
       "length": 22,
       "value": "\"SWIPE_READ_ERROR_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2005,
+      "offset": 2011,
       "length": 16,
       "value": "\"NFC_READ_ERROR\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2052,
+      "offset": 2058,
       "length": 23,
       "value": "\"NFC_DECLINE_ERROR_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2106,
+      "offset": 2112,
       "length": 23,
       "value": "\"NFC_GENERAL_ERROR_MSG\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2152,
+      "offset": 2158,
       "length": 13,
       "value": "\"SCREEN_TIPS\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2192,
+      "offset": 2198,
       "length": 17,
       "value": "\"SCREEN_APPROVAL\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Responses\/CheckoutResponse.swift",
       "kind": "StringLiteral",
-      "offset": 2246,
+      "offset": 2252,
       "length": 28,
       "value": "\"SCREEN_REWARD_NOTIFICATION\""
     },
@@ -15450,240 +16624,366 @@
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 1002,
+      "offset": 1126,
       "length": 14,
       "value": "\"pos_order_id\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 1044,
+      "offset": 1168,
       "length": 14,
       "value": "\"created_time\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 1002,
+      "offset": 1211,
+      "length": 15,
+      "value": "\"savings_total\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 1253,
+      "length": 13,
+      "value": "\"auto_expand\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 1298,
+      "length": 19,
+      "value": "\"default_scroll_to\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 1126,
       "length": 14,
       "value": "\"pos_order_id\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 1044,
+      "offset": 1168,
       "length": 14,
       "value": "\"created_time\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3024,
+      "offset": 1211,
+      "length": 15,
+      "value": "\"savings_total\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 1253,
+      "length": 13,
+      "value": "\"auto_expand\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 1298,
+      "length": 19,
+      "value": "\"default_scroll_to\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1876,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3097,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 5055,
+      "length": 8,
+      "value": "\"BOTTOM\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 5079,
+      "length": 5,
+      "value": "\"TOP\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 5055,
+      "length": 8,
+      "value": "\"BOTTOM\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 5079,
+      "length": 5,
+      "value": "\"TOP\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 6224,
       "length": 11,
       "value": "\"class_uid\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3064,
+      "offset": 6264,
       "length": 15,
       "value": "\"instance_uids\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3158,
+      "offset": 6358,
       "length": 20,
       "value": "\"pre_tax_unit_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3211,
+      "offset": 6411,
       "length": 21,
       "value": "\"pre_tax_total_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3266,
+      "offset": 6466,
       "length": 22,
       "value": "\"post_tax_total_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3321,
+      "offset": 6521,
       "length": 21,
       "value": "\"post_tax_unit_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3369,
+      "offset": 6569,
       "length": 14,
       "value": "\"per_unit_tax\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3408,
+      "offset": 6608,
       "length": 11,
       "value": "\"total_tax\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3443,
+      "offset": 6643,
       "length": 10,
       "value": "\"tax_rate\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3480,
+      "offset": 6680,
       "length": 14,
       "value": "\"show_pre_tax\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3024,
+      "offset": 6224,
       "length": 11,
       "value": "\"class_uid\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3064,
+      "offset": 6264,
       "length": 15,
       "value": "\"instance_uids\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3158,
+      "offset": 6358,
       "length": 20,
       "value": "\"pre_tax_unit_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3211,
+      "offset": 6411,
       "length": 21,
       "value": "\"pre_tax_total_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3266,
+      "offset": 6466,
       "length": 22,
       "value": "\"post_tax_total_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3321,
+      "offset": 6521,
       "length": 21,
       "value": "\"post_tax_unit_price\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3369,
+      "offset": 6569,
       "length": 14,
       "value": "\"per_unit_tax\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3408,
+      "offset": 6608,
       "length": 11,
       "value": "\"total_tax\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3443,
+      "offset": 6643,
       "length": 10,
       "value": "\"tax_rate\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 3480,
+      "offset": 6680,
       "length": 14,
       "value": "\"show_pre_tax\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 5189,
+      "offset": 9606,
       "length": 11,
       "value": "\"class_uid\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 5253,
+      "offset": 9670,
       "length": 14,
       "value": "\"instance_uid\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 5297,
+      "offset": 9714,
       "length": 17,
       "value": "\"post_tax_amount\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 5343,
+      "offset": 9760,
       "length": 16,
       "value": "\"pre_tax_amount\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 5386,
+      "offset": 9803,
       "length": 14,
       "value": "\"show_pre_tax\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 5189,
+      "offset": 9846,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 9606,
       "length": 11,
       "value": "\"class_uid\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 5253,
+      "offset": 9670,
       "length": 14,
       "value": "\"instance_uid\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 5297,
+      "offset": 9714,
       "length": 17,
       "value": "\"post_tax_amount\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 5343,
+      "offset": 9760,
       "length": 16,
       "value": "\"pre_tax_amount\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
       "kind": "StringLiteral",
-      "offset": 5386,
+      "offset": 9803,
       "length": 14,
       "value": "\"show_pre_tax\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 9846,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 11147,
+      "length": 10,
+      "value": "\"DISCOUNT\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 11176,
+      "length": 8,
+      "value": "\"REWARD\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 11147,
+      "length": 10,
+      "value": "\"DISCOUNT\""
+    },
+    {
+      "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/InProgressOrderDisplay.swift",
+      "kind": "StringLiteral",
+      "offset": 11176,
+      "length": 8,
+      "value": "\"REWARD\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/ManualEntry\/KeyboardAwareBottomSheetViewController.swift",
@@ -16101,14 +17401,14 @@
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Order.swift",
       "kind": "StringLiteral",
-      "offset": 586,
+      "offset": 592,
       "length": 14,
       "value": "\"pos_order_id\""
     },
     {
       "filePath": "\/Users\/sumup.user\/Source\/Fivestars\/tapi-sdk-ios\/Sources\/TapiSDK\/API\/Models\/Order.swift",
       "kind": "StringLiteral",
-      "offset": 586,
+      "offset": 592,
       "length": 14,
       "value": "\"pos_order_id\""
     },
